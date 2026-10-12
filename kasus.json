@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "judul": "Crita 1",
+    "cerita": "saben énjang, simbah kakung tansah wungu ing tabuh gangsal. sasampun-ipun sembahyang, panjenengan-ipun lajeng ngunjuk téh anget sarta dhahar pisang goréng wonten téras ngajeng. ibu ugi kersa nyawis-aken dhahar-an sanés-ipun supados simbah kakung rumangsa remen nalika mriksa-ni swasana énjang ingkang asri.\n\nnalika srengéngé miwit-i inggil, mbah kakung lajeng tindak dhumateng sabin nitih sepédha ontél. wonten ing sabin, panjenengan-ipun mriksa-ni para tani ingkang saweg nindak-aken padamel-an sarta nyiram-i tanem-an. sasampun-ipun cekap, simbah kakung lajeng kondur dhumateng dalem supados saged ngaso sarta dhahar siang sesareng-an kaliyan kulawarga.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "jam pira simbah kakung wungu ing wayah énjang?",
+        "pilihan": ["jam papat", "jam lima", "jam enem", "jam pitu"],
+        "kunci": 1
+      },
+      {
+        "id": 2,
+        "pertanyaan": "apa sing diunjuk simbah kakung nalika ing teras ngajeng?",
+        "pilihan": ["kopi panas", "wédang jahé", "téh anget", "és dhawet"],
+        "kunci": 2
+      },
+      {
+        "id": 3,
+        "pertanyaan": "dhahar-an apa sing didhahar simbah kakung ing wayah énjang?",
+        "pilihan": ["pisang goréng", "tahu goréng", "jadah bakar", "roti kukus"],
+        "kunci": 0
+      },
+      {
+        "id": 4,
+        "pertanyaan": "sapa sing nyawis-aké dhahar-an sanésé kagem simbah kakung?",
+        "pilihan": ["bakyu", "ibu", "adhik", "bapak"],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "simbah kakung tindak menyang ngendi nalika srengéngé wis miwit-i dhuwur?",
+        "pilihan": ["menyang pasar", "menyang kantor", "menyang sabin", "menyang puskesmas"],
+        "kunci": 2
+      },
+      {
+        "id": 6,
+        "pertanyaan": "simbah kakung tindak menyang sabin nitih apa?",
+        "pilihan": ["sepéda motor", "sepédha ontél", "mobil", "dhokar"],
+        "kunci": 1
+      },
+      {
+        "id": 7,
+        "pertanyaan": "apa sing dipriksa-ni simbah kakung nalika wis tekan ing sabin?",
+        "pilihan": [
+          "bocah bocah lagi dolan-an",
+          "para tani sing lagi kerja lan nyiram-i tandur-an",
+          "wong wong sing lagi dagang",
+          "buruh sing lagi ngaso"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 8,
+        "pertanyaan": "kena apa simbah kakung banjur kondur menyang dalem?",
+        "pilihan": [
+          "amarga udan deres",
+          "amarga wis kesel banget",
+          "arep ngaso lan dhahar siang karo kulawarga",
+          "amarga dipara-ni tangga-né"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung wungu ing crita ndhuwur tegesé yaiku",
+        "pilihan": ["turu", "tangi", "adus", "lungguh"],
+        "kunci": 1
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung kondur ing crita ndhuwur nduwéni teges",
+        "pilihan": ["menyang", "mulih", "lunga", "mlebu"],
+        "kunci": 1
+      }
+    ]
+  }
+]
