@@ -119,9 +119,9 @@ function renderAll() {
   if (!kasusData || kasusData.length === 0) return;
 
   document.getElementById('ui-title').textContent = convertToAksara("Aplikasi Maca Aksara Jawa");
-  document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Paugeran Transliterasi:");
-  document.getElementById('ui-questions-title').textContent = convertToAksara("Wangsulana Pitakon-Pitakon Ing Ngisor Iki:");
-  document.getElementById('next-story-btn').textContent = convertToAksara("Crita Sabanjuré");
+  document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Pauger-an:");
+  document.getElementById('ui-questions-title').textContent = convertToAksara("Wangsul-ana Pitakon-Pitakon Ing Ngisor Iki:");
+  document.getElementById('next-story-btn').textContent = convertToAksara("Crita Sabanjur-é");
 
   const activeKasus = kasusData[currentKasusIndex];
 
