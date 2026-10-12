@@ -60,11 +60,16 @@ body {
   gap: 10px;
 }
 
-.paugeran-selector select {
+.paugeran-selector select,
+#paugeranSelect,
+#paugeranSelect option {
+  font-family: 'Gentium Plus', serif !important;
   padding: 6px 12px;
   font-size: 1rem;
   border-radius: 4px;
   border: 1px solid #ccc;
+  background-color: #fff;
+  color: var(--text-dark);
 }
 
 .container {
