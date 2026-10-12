@@ -695,3 +695,4 @@ if (clearBtn) {
 if (textInput && previewOutput) {
     updatePreview();
 }
+window.transliterasiKawi = transliterateKawi;
