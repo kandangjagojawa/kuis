@@ -48,10 +48,10 @@ function renderAll() {
   if (kasusData.length === 0) return;
 
   // Render Label UI Statis ke Aksara Jawa (Dropdown dikecualikan)
-  document.getElementById('ui-title').textContent = convertToAksara("Aplikasi Maca Aksara Jawa");
-  document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Paugeran Transliterasi:");
-  document.getElementById('ui-questions-title').textContent = convertToAksara("Wangsulana Pitakon-Pitakon Ing Ngisor Iki:");
-  document.getElementById('next-story-btn').textContent = convertToAksara("Crita Sabanjuré");
+  document.getElementById('ui-title').textContent = convertToAksara("kuis Aksara jawa");
+  document.getElementById('ui-label-paugeran').textContent = convertToAksara("pilih paugeran:");
+  document.getElementById('ui-questions-title').textContent = convertToAksara("wangsul-ana pitakon ing ngisor iki:");
+  document.getElementById('next-story-btn').textContent = convertToAksara("crita sabanjur-é");
 
   const activeKasus = kasusData[currentKasusIndex];
 
@@ -75,7 +75,7 @@ function renderSoal(soalList) {
   const container = document.getElementById('questions-container');
   container.innerHTML = '';
 
-  const prefixes = ['a. ', 'b. ', 'c. ', 'd. '];
+  const prefixes = ['ha. ', 'na. ', 'ca. ', 'ra. '];
 
   soalList.forEach((q, qIndex) => {
     const qBlock = document.createElement('div');
