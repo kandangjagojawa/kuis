@@ -119,7 +119,7 @@
   {
     "id": 2,
     "judul": "crita 2",
-    "cerita": "saben dinten senin, para siswa ing sekolah dhasar suka maju nindak-aken upacara gendéra wonten ing lapang-an sekolah. nalika bél mungel ing tabuh pitu, sedaya siswa lan para dwija sampun siyap lan kempal kanthi rapi. bapak kepala sekolah dados pembina upacara sarta maring-i pitutur babag-an kedhisiplin-an lan wigatos-ing sinau kanthi sregep.\n\nsasampun-ipun upacara kapungkur, para siswa lajeng lumebet dhumateng kelas piyambak-piyambak saperlu nampa-ni piwulang. ibu guru ngandhar-aken matéri babag-an piwulang basa jawa kanthi remen lan sabar. sedaya siswa sami mireng-aken piwulangan-ipun ibu guru lan nindak-aken gladhén kanthi semangat.",
+    "cerita": "saben dinten senin, para siswa ing sekolah dhasar suka maju nindak-aken upacara gendéra wonten ing lapang-an sekolah. nalika bél mungel ing tabuh pitu, sedaya siswa lan para dwija sampun siyap lan kempal kanthi rapi. bapak pangarsa pamulang-an dados pembina upacara sarta maring-i pitutur babag-an kedhisiplin-an lan wigatos-ing sinau kanthi sregep.\n\nsasampun-ipun upacara kapungkur, para siswa lajeng lumebet dhumateng kelas piyambak-piyambak saperlu nampa-ni piwulang. ibu guru ngandhar-aken matéri babag-an piwulang basa jawa kanthi remen lan sabar. sedaya siswa sami mireng-aken piwulangan-ipun ibu guru lan nindak-aken gladhén kanthi semangat.",
     "soal": [
       {
         "id": 1,
@@ -147,7 +147,7 @@
         "id": 3,
         "pertanyaan": "sapa sing dadi pembina upacara ing lapangan sekolah?",
         "pilihan": [
-          "bapak kepala sekolah",
+          "bapak pangarsa pamulang-an",
           "ibu guru basa jawa",
           "penjaga sekolah",
           "ketua kelas"
@@ -158,7 +158,7 @@
         "id": 4,
         "pertanyaan": "apa sing didhawuh-aké bapak kepala sekolah nalika paring pitutur?",
         "pilihan": [
-          "babag-an keresik-an lingkung-an",
+          "babag-an karesik-an lingkung-an",
           "babag-an kedhisiplin-an lan wigatos-ing sinau",
           "babag-an olahraga sesareng-an",
           "babag-an tata tertib perpustakaan"
@@ -213,9 +213,9 @@
         "id": 9,
         "pertanyaan": "tembung dwija ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
-          "murid",
+          "siswa",
           "guru",
-          "wali murid",
+          "simbok kantin",
           "pak lurah"
         ],
         "kunci": 1
