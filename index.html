@@ -13,21 +13,27 @@
 
   <header class="app-header">
     <h1 id="ui-title" class="aksara-jawa"></h1>
-    <div class="paugeran-selector">
-      <span id="ui-label-paugeran" class="aksara-jawa"></span>
-      <div class="paugeran-options">
-        <label class="paugeran-option">
-          <input type="radio" name="paugeran" value="kbj" checked>
-          <span>Paugeran KBJ</span>
-        </label>
-        <label class="paugeran-option">
-          <input type="radio" name="paugeran" value="sriwedari">
-          <span>Paugeran Sriwedari</span>
-        </label>
-        <label class="paugeran-option">
-          <input type="radio" name="paugeran" value="kawi">
-          <span>Cara Kawi (Mardi Kawi)</span>
-        </label>
+    <div class="header-controls">
+      <div class="story-selector">
+        <label for="storySelect" id="ui-label-story" class="aksara-jawa"></label>
+        <select id="storySelect"></select>
+      </div>
+      <div class="paugeran-selector">
+        <span id="ui-label-paugeran" class="aksara-jawa"></span>
+        <div class="paugeran-options">
+          <label class="paugeran-option">
+            <input type="radio" name="paugeran" value="kbj" checked>
+            <span>Paugeran KBJ</span>
+          </label>
+          <label class="paugeran-option">
+            <input type="radio" name="paugeran" value="sriwedari">
+            <span>Paugeran Sriwedari</span>
+          </label>
+          <label class="paugeran-option">
+            <input type="radio" name="paugeran" value="kawi">
+            <span>Cara Kawi (Mardi Kawi)</span>
+          </label>
+        </div>
       </div>
     </div>
   </header>
