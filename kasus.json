@@ -349,5 +349,122 @@
         "kunci": 1
       }
     ]
+  },
+  {
+    "id": 4,
+    "judul": "crita 4",
+    "cerita": "saben dinten minggu enjang, para warga ing dhusun sami kempal saperlu nindakaken kerja bakti lan gotong royong kanggé mèngetan dinten ambal warsa kamardikan republik indonésia. para warga sami ngrésiki mergi, selokan, sarta masang bendéra lan umbul-umbul ing saben ngarsa dalem supados papan panggenan katingal asri lan ramé.\n\nswasana ing kerja bakti punika katingal ngremenaken amargi sadaya warga nyambut damel kanthi rukun lan semangat. para ibu ugi nyawosaken wédang téh lan dhaharan kanggé para warga ingkang saweg kerja bakti supados mboten ngelak lan lesah. gotong royong punika ndadosaken masarakat sangsaya raket lan siap ngramekaken dinten kamardikan.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "ing dina apa para warga nindakaké kerja bakti lan gotong royong?",
+        "pilihan": [
+          "dina jumat enjang",
+          "dina sabtu enjang",
+          "dina minggu enjang",
+          "dina senin enjang"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 2,
+        "pertanyaan": "apa tujuané para warga nindakaké kerja bakti kasebut?",
+        "pilihan": [
+          "kanggo mèngetan dinten ambal warsa kamardikan republik indonésia",
+          "kanggo nyiapaké pasar malem",
+          "kanggo mbangun balé dhusun",
+          "kanggo dolanan sesarengan"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 3,
+        "pertanyaan": "apa waé sing dirésiki déning para warga nalika kerja bakti?",
+        "pilihan": [
+          "omah piyambak-piyambak",
+          "mergi lan selokan",
+          "pasar lan sekolah",
+          "lapangan olahraga"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 4,
+        "pertanyaan": "barang apa sing dipasang para warga ing ngarsa dalem?",
+        "pilihan": [
+          "lampu hias",
+          "bendéra lan umbul-umbul",
+          "spanduk cilik",
+          "balon warna-warni"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "apa sing disawosaké déning para ibu kanggo para warga sing kerja bakti?",
+        "pilihan": [
+          "es dhawet lan roti",
+          "wédang téh lan dhaharan",
+          "kopi panas lan jadah",
+          "banyu putih lan gedhang"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 6,
+        "pertanyaan": "kepiyé swasana nalika para warga nindakaké kerja bakti?",
+        "pilihan": [
+          "ramé lan ngremenaké",
+          "sepi lan peteng",
+          "panas lan gregetan",
+          "sedhih lan sepi"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 7,
+        "pertanyaan": "apa guna utawa mumpangaté gotong royong kasebut kanggo para warga?",
+        "pilihan": [
+          "nggawé warga dadi kesel",
+          "ndadosaké masarakat sangsaya raket",
+          "kanggo pamer klambi",
+          "kanggo golèk bathi"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 8,
+        "pertanyaan": "sapa sing melu nyambut damel nindakaké kerja bakti ing dhusun?",
+        "pilihan": [
+          "para ibu waé",
+          "para bapak waé",
+          "sadaya para warga",
+          "bocah-bocah waé"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung \"ngrésiki\" ing crita ndhuwur nduwéni teges yaiku ...",
+        "pilihan": [
+          "nggawé reget",
+          "ngresiki / ngilangi regetan",
+          "ngrusak",
+          "ngobong"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung \"raket\" ing crita ndhuwur tegesé padha karo ...",
+        "pilihan": [
+          "adoh",
+          "cedhak / rukun banget",
+          "duka",
+          "lumayu"
+        ],
+        "kunci": 1
+      }
+    ]
   }
 ]
