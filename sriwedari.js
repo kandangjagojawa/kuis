@@ -833,3 +833,4 @@ function transliterasiSingleKata(rawLatin) {
     }
     return res;
 }
+window.transliterasiSriwedari = transliterasiKalimat;
