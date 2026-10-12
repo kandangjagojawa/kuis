@@ -232,5 +232,122 @@
         "kunci": 0
       }
     ]
+  },
+  {
+    "id": 3,
+    "judul": "crita 3",
+    "cerita": "saben dinten minggu soré, para ibu ing kampung wirasan sami kempal wonten ing balé dhusun saperlu nindak-aken kegiat-an arisan. swasana ing balé dhusun katingal ramé lan ngremen-aken amargi para ibu sami ngendikan kanthi guyub rukun sarta bebareng-an nglaras wédang téh anget lan dhahar jajan-an pasar.\n\npuncak-ipun acara inggih punika nalika ngocok kocok-an arisan supados mangertos-i sinten ingkang pikantuk arisan ing dinten punika. nalika nami ingkang pikantuk sampun kawaos-aken, sadaya ibu sami keplok-keplok lan gumujeng kanthi bingah. kegiat-an arisan punika boten namung kanggé ngumpul-aken arta, nanging ugi kanggé njaga pasedulur-an lan kerukun-an warga.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "ing dina apa para ibu ing kampung wirasan padha kempal arisan?",
+        "pilihan": [
+          "dina jumat soré",
+          "dina sabtu soré",
+          "dina minggu soré",
+          "dina senin soré"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 2,
+        "pertanyaan": "ana ing ngendi para ibu nindak-aké kegiat-an arisan punika?",
+        "pilihan": [
+          "ing balé dhusun",
+          "ing pasar",
+          "ing sekolah",
+          "ing lapang-an"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 3,
+        "pertanyaan": "kepiyé swasana ing balé dhusun nalika para ibu padha kempal?",
+        "pilihan": [
+          "sepi lan peteng",
+          "ramé lan ngremen-aké",
+          "wedi lan sepi",
+          "sedhih lan peteng"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 4,
+        "pertanyaan": "apa sing diunjuk lan didhahar para ibu nalika nglaras bebareng-an?",
+        "pilihan": [
+          "kopi lan roti",
+          "wédang téh anget lan jajan-an pasar",
+          "es dhawet lan soto",
+          "banyu putih lan gedhang"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "apa sing dadi puncak-ipun acara arisan para ibu punika?",
+        "pilihan": [
+          "njoget bebareng-an",
+          "ngocok kocok-an arisan",
+          "milih ketua anyar",
+          "resik-resik balé dhusun"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 6,
+        "pertanyaan": "apa sing ditindak-aké para ibu nalika nami sing pikantuk arisan kawaos-aké?",
+        "pilihan": [
+          "mlayu metu",
+          "keplok-keplok lan ngguyu bingah",
+          "nangis bebaren-gan",
+          "meneng waé"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 7,
+        "pertanyaan": "saliya-né kanggo ngumpul-aké arta, apa guna-né arisan miturut crita ing ndhuwur?",
+        "pilihan": [
+          "kanggo njaga pasedulur-an lan kerukun-an",
+          "kanggo pamer klambi",
+          "kanggo golèk mungsuh",
+          "kanggo dagang pangan-an"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 8,
+        "pertanyaan": "sapa jeneng kampung papan panggon-an arisan para ibu kasebut?",
+        "pilihan": [
+          "kampung wirasan",
+          "kampung sukamaju",
+          "kampung rejo",
+          "kampung makmur"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung kempal ing crita ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "pisah",
+          "kumpul",
+          "mlayu",
+          "turu"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung bingah ing crita ndhuwur teges-é padha karo",
+        "pilihan": [
+          "sedhih",
+          "bungah",
+          "duka",
+          "bingung"
+        ],
+        "kunci": 1
+      }
+    ]
   }
 ]
