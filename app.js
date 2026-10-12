@@ -81,12 +81,16 @@ async function loadTransliterators() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const paugeranSelect = document.getElementById('paugeranSelect');
-  if (paugeranSelect) {
-    currentPaugeran = paugeranSelect.value || 'kbj';
-    paugeranSelect.addEventListener('change', (e) => {
-      currentPaugeran = e.target.value;
-      renderAll();
+  const paugeranInputs = document.querySelectorAll('input[name="paugeran"]');
+  if (paugeranInputs.length > 0) {
+    const checkedInput = document.querySelector('input[name="paugeran"]:checked');
+    currentPaugeran = checkedInput ? checkedInput.value : 'kbj';
+
+    paugeranInputs.forEach((input) => {
+      input.addEventListener('change', (e) => {
+        currentPaugeran = e.target.value;
+        renderAll();
+      });
     });
   }
 
