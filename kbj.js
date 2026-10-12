@@ -686,3 +686,4 @@ function transliterasiSingleKata(rawLatin) {
     }
     return res;
 }
+window.transliterasiKBJ = transliterasiKalimat;
