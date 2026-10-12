@@ -149,8 +149,8 @@
         "pilihan": [
           "bapak pangarsa pamulang-an",
           "ibu guru basa jawa",
-          "penjaga sekolah",
-          "ketua kelas"
+          "sing jaga sekolah-an",
+          "bapak guru matematika"
         ],
         "kunci": 0
       },
@@ -299,7 +299,7 @@
         "pilihan": [
           "mlayu metu",
           "keplok-keplok lan ngguyu bingah",
-          "nangis bebaren-gan",
+          "nangis bebareng-an",
           "meneng waé"
         ],
         "kunci": 1
@@ -317,7 +317,7 @@
       },
       {
         "id": 8,
-        "pertanyaan": "sapa jeneng kampung papan panggon-an arisan para ibu kasebut?",
+        "pertanyaan": "apa jeneng kampung papan panggon-an arisan para ibu kasebut?",
         "pilihan": [
           "kampung wirasan",
           "kampung sukamaju",
@@ -353,33 +353,33 @@
   {
     "id": 4,
     "judul": "crita 4",
-    "cerita": "saben dinten minggu enjang, para warga ing dhusun sami kempal saperlu nindakaken kerja bakti lan gotong royong kanggé mèngetan dinten ambal warsa kamardikan republik indonésia. para warga sami ngrésiki mergi, selokan, sarta masang bendéra lan umbul-umbul ing saben ngarsa dalem supados papan panggenan katingal asri lan ramé.\n\nswasana ing kerja bakti punika katingal ngremenaken amargi sadaya warga nyambut damel kanthi rukun lan semangat. para ibu ugi nyawosaken wédang téh lan dhaharan kanggé para warga ingkang saweg kerja bakti supados mboten ngelak lan lesah. gotong royong punika ndadosaken masarakat sangsaya raket lan siap ngramekaken dinten kamardikan.",
+    "cerita": "saben dinten minggu énjang, para warga ing dhusun sami kempal saperlu nindak-aken kerja bakti lan gotong royong kanggé ménget-i dinten ambal warsa kamardikan républik indonésya. para warga sami ngresik-i mergi, selokan, sarta masang gendéra lan umbul-umbul ing saben ngajeng dalem supados papan panggen-an katingal asri lan ramé.\n\nswasana ing kerja bakti punika katingal ngremen-aken amargi sadaya warga nyambut damel kanthi rukun lan semangat. para ibu ugi nyawos-aken wédang téh lan dhahar-an kanggé para warga ingkang sami kerja bakti supados mboten ngelak lan lesah. gotong royong punika ndados-aken masarakat sangsaya raket lan siap ngramék-aken dinten kamardikan.",
     "soal": [
       {
         "id": 1,
-        "pertanyaan": "ing dina apa para warga nindakaké kerja bakti lan gotong royong?",
+        "pertanyaan": "ing dina apa para warga nindak-aké kerja bakti lan gotong royong?",
         "pilihan": [
-          "dina jumat enjang",
-          "dina sabtu enjang",
-          "dina minggu enjang",
-          "dina senin enjang"
+          "dina jumat énjang",
+          "dina sabtu énjang",
+          "dina minggu énjang",
+          "dina senin énjang"
         ],
         "kunci": 2
       },
       {
         "id": 2,
-        "pertanyaan": "apa tujuané para warga nindakaké kerja bakti kasebut?",
+        "pertanyaan": "apa tujuan-é para warga nindak-aké kerja bakti kasebut?",
         "pilihan": [
-          "kanggo mèngetan dinten ambal warsa kamardikan republik indonésia",
-          "kanggo nyiapaké pasar malem",
+          "kanggo ménget-i dinten ambal warsa kamardikan republik indonésya",
+          "kanggo nyiap-aké pasar malem",
           "kanggo mbangun balé dhusun",
-          "kanggo dolanan sesarengan"
+          "kanggo dolan-an sesareng-an"
         ],
         "kunci": 0
       },
       {
         "id": 3,
-        "pertanyaan": "apa waé sing dirésiki déning para warga nalika kerja bakti?",
+        "pertanyaan": "apa waé sing diresik-i déning para warga nalika kerja bakti?",
         "pilihan": [
           "omah piyambak-piyambak",
           "mergi lan selokan",
@@ -390,21 +390,21 @@
       },
       {
         "id": 4,
-        "pertanyaan": "barang apa sing dipasang para warga ing ngarsa dalem?",
+        "pertanyaan": "barang apa sing dipasang para warga ing ngajeng dalem-é?",
         "pilihan": [
           "lampu hias",
-          "bendéra lan umbul-umbul",
-          "spanduk cilik",
+          "gendéra lan umbul-umbul",
+          "spandhuk cilik",
           "balon warna-warni"
         ],
         "kunci": 1
       },
       {
         "id": 5,
-        "pertanyaan": "apa sing disawosaké déning para ibu kanggo para warga sing kerja bakti?",
+        "pertanyaan": "apa sing disawos-aké déning para ibu kanggo para warga sing kerja bakti?",
         "pilihan": [
-          "es dhawet lan roti",
-          "wédang téh lan dhaharan",
+          "és dhawet lan roti",
+          "wédang téh lan dhahar-an",
           "kopi panas lan jadah",
           "banyu putih lan gedhang"
         ],
@@ -412,29 +412,29 @@
       },
       {
         "id": 6,
-        "pertanyaan": "kepiyé swasana nalika para warga nindakaké kerja bakti?",
+        "pertanyaan": "kepiyé swasana nalika para warga nindak-aké kerja bakti?",
         "pilihan": [
-          "ramé lan ngremenaké",
+          "ramé lan ngremen-aké",
           "sepi lan peteng",
-          "panas lan gregetan",
+          "panas lan greget-an",
           "sedhih lan sepi"
         ],
         "kunci": 0
       },
       {
         "id": 7,
-        "pertanyaan": "apa guna utawa mumpangaté gotong royong kasebut kanggo para warga?",
+        "pertanyaan": "apa guna-né utawa mumpangat-é gotong royong kasebut kanggo para warga?",
         "pilihan": [
           "nggawé warga dadi kesel",
-          "ndadosaké masarakat sangsaya raket",
+          "ndados-aké masarakat sangsaya raket",
           "kanggo pamer klambi",
-          "kanggo golèk bathi"
+          "kanggo golék bathi"
         ],
         "kunci": 1
       },
       {
         "id": 8,
-        "pertanyaan": "sapa sing melu nyambut damel nindakaké kerja bakti ing dhusun?",
+        "pertanyaan": "sapa sing mélu nyambut damel nindak-aké kerja bakti ing dhusun?",
         "pilihan": [
           "para ibu waé",
           "para bapak waé",
@@ -445,10 +445,10 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung \"ngrésiki\" ing crita ndhuwur nduwéni teges yaiku ...",
+        "pertanyaan": "tembung ngresik-i ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
-          "nggawé reget",
-          "ngresiki / ngilangi regetan",
+          "nggawé reged",
+          "ngilang-i reged-an",
           "ngrusak",
           "ngobong"
         ],
@@ -456,10 +456,10 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung \"raket\" ing crita ndhuwur tegesé padha karo ...",
+        "pertanyaan": "tembung raket ing crita ndhuwur teges-é padha karo ...",
         "pilihan": [
           "adoh",
-          "cedhak / rukun banget",
+          "cedhak rukun banget",
           "duka",
           "lumayu"
         ],
