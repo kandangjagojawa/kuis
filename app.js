@@ -5,21 +5,24 @@ let userAnswers = {};
 
 function convertToAksara(text) {
   if (!text) return '';
-  // Mengubah semua teks latin menjadi huruf kecil sebelum ditransliterasikan
   const lowerText = text.toLowerCase();
+  let result = '';
 
   if (currentPaugeran === 'kbj' && typeof window.transliterasiKBJ === 'function') {
-    return window.transliterasiKBJ(lowerText);
+    result = window.transliterasiKBJ(lowerText);
   } else if (currentPaugeran === 'kawi' && typeof window.transliterasiKawi === 'function') {
-    return window.transliterasiKawi(lowerText);
+    result = window.transliterasiKawi(lowerText);
   } else if (currentPaugeran === 'sriwedari' && typeof window.transliterasiSriwedari === 'function') {
-    return window.transliterasiSriwedari(lowerText);
+    result = window.transliterasiSriwedari(lowerText);
+  } else {
+    result = lowerText;
   }
-  return lowerText;
+
+  // Menghapus alternatif penulisan di dalam kurung beserta spasi di depannya
+  return result.replace(/\s*\([^)]*\)/g, '');
 }
 
 function updateActiveFont() {
-  // Font ngayogyan.ttf untuk carakawi, ngayogyann.ttf untuk kbj dan sriwedari
   const activeFontFamily = (currentPaugeran === 'kawi') ? "'Ngayogyan', serif" : "'Ngayogyann', serif";
   const elements = document.querySelectorAll('.aksara-jawa');
   elements.forEach(el => {
@@ -39,7 +42,6 @@ async function loadScriptIsolated(scriptSrc, funcName) {
     if (typeof fn === 'function') return fn;
     throw new Error(`Fungsi ${funcName} tidak ditemukan`);
   } catch (e) {
-    // Fallback menggunakan iframe terisolasi jika berjalan di lingkungan file://
     return new Promise((resolve, reject) => {
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
