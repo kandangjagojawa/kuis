@@ -1,153 +1,129 @@
-@font-face {
-  font-family: 'Ngayogyann';
-  src: url('ngayogyann.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+let currentPaugeran = 'kbj';
+let kasusData = [];
+let currentKasusIndex = 0;
+let userAnswers = {};
+
+function convertToAksara(text) {
+  if (!text) return '';
+  if (currentPaugeran === 'kbj' && typeof window.transliterasiKBJ === 'function') {
+    return window.transliterasiKBJ(text);
+  } else if (currentPaugeran === 'kawi' && typeof window.transliterasiKawi === 'function') {
+    return window.transliterasiKawi(text);
+  } else if (typeof window.transliterasiSriwedari === 'function') {
+    return window.transliterasiSriwedari(text);
+  }
+  return text;
 }
 
-@font-face {
-  font-family: 'Ngayogyan';
-  src: url('ngayogyan.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+function updateActiveFont() {
+  const activeFontFamily = (currentPaugeran === 'kawi') ? "'Ngayogyan', serif" : "'Ngayogyann', serif";
+  const elements = document.querySelectorAll('.aksara-jawa');
+  elements.forEach(el => {
+    el.style.fontFamily = activeFontFamily;
+  });
 }
 
-:root {
-  --bg-color: #f4f1ea;
-  --card-bg: #ffffff;
-  --primary-color: #4a3525;
-  --border-color: #dcd6cd;
-  --correct-bg: #e2f0d9;
-  --correct-color: #2e6b27;
-  --incorrect-bg: #fce4d6;
-  --incorrect-color: #c55a11;
-  --text-dark: #2b2b2b;
+document.addEventListener('DOMContentLoaded', () => {
+  const paugeranSelect = document.getElementById('paugeranSelect');
+  
+  paugeranSelect.addEventListener('change', (e) => {
+    currentPaugeran = e.target.value;
+    renderAll();
+  });
+
+  document.getElementById('next-story-btn').addEventListener('click', () => {
+    if (currentKasusIndex < kasusData.length - 1) {
+      currentKasusIndex++;
+      userAnswers = {};
+      renderAll();
+    }
+  });
+
+  fetchKasusData();
+});
+
+async function fetchKasusData() {
+  try {
+    const response = await fetch('kasus.json');
+    kasusData = await response.json();
+    renderAll();
+  } catch (error) {
+    console.error('Gagal memuat kasus.json:', error);
+  }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--bg-color);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text-dark);
+function renderAll() {
+  if (kasusData.length === 0) return;
+
+  document.getElementById('ui-title').textContent = convertToAksara("Aplikasi Maca Aksara Jawa");
+  document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Paugeran Transliterasi:");
+  document.getElementById('ui-questions-title').textContent = convertToAksara("Wangsulana Pitakon-Pitakon Ing Ngisor Iki:");
+  document.getElementById('next-story-btn').textContent = convertToAksara("Crita Sabanjuré");
+
+  const activeKasus = kasusData[currentKasusIndex];
+
+  document.getElementById('story-title').textContent = convertToAksara(activeKasus.judul);
+  document.getElementById('story-content').textContent = convertToAksara(activeKasus.cerita);
+
+  renderSoal(activeKasus.soal);
+
+  const nextBtn = document.getElementById('next-story-btn');
+  if (currentKasusIndex < kasusData.length - 1) {
+    nextBtn.style.display = 'block';
+  } else {
+    nextBtn.style.display = 'none';
+  }
+
+  updateActiveFont();
 }
 
-.aksara-jawa {
-  font-family: 'Ngayogyann', serif;
-  line-height: 1.8;
-  font-size: 1.35rem;
-}
+function renderSoal(soalList) {
+  const container = document.getElementById('questions-container');
+  container.innerHTML = '';
 
-.app-header {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-}
+  const prefixes = ['a. ', 'b. ', 'c. ', 'd. '];
 
-.app-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
+  soalList.forEach((q, qIndex) => {
+    const qBlock = document.createElement('div');
+    qBlock.className = 'question-block';
 
-.paugeran-selector {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+    const qTitle = document.createElement('div');
+    qTitle.className = 'aksara-jawa';
+    qTitle.style.fontWeight = 'bold';
+    qTitle.textContent = convertToAksara(`${qIndex + 1}. ${q.pertanyaan}`);
+    qBlock.appendChild(qTitle);
 
-.paugeran-selector label {
-  color: #fff;
-}
+    const optionsGrid = document.createElement('div');
+    optionsGrid.className = 'options-grid';
 
-.paugeran-selector select {
-  padding: 6px 12px;
-  font-size: 1rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  color: var(--text-dark);
-}
+    q.pilihan.forEach((opt, optIndex) => {
+      const optBtn = document.createElement('button');
+      optBtn.className = 'option-btn aksara-jawa';
+      optBtn.textContent = convertToAksara(`${prefixes[optIndex]}${opt}`);
 
-.container {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 15px;
-}
+      const hasAnswered = userAnswers[qIndex] !== undefined;
 
-.story-card, .questions-card {
-  background-color: var(--card-bg);
-  padding: 25px;
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-  margin-bottom: 25px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+      if (hasAnswered) {
+        optBtn.disabled = true;
+        const selectedOpt = userAnswers[qIndex];
+        const correctOpt = q.kunci;
 
-.story-text {
-  white-space: pre-wrap;
-  text-align: justify;
-}
+        if (optIndex === correctOpt) {
+          optBtn.classList.add('correct');
+        } else if (optIndex === selectedOpt) {
+          optBtn.classList.add('incorrect');
+        }
+      } else {
+        optBtn.addEventListener('click', () => {
+          userAnswers[qIndex] = optIndex;
+          renderAll();
+        });
+      }
 
-.question-block {
-  border-bottom: 1px solid var(--border-color);
-  padding: 15px 0;
-}
+      optionsGrid.appendChild(optBtn);
+    });
 
-.question-block:last-child {
-  border-bottom: none;
-}
-
-.options-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.option-btn {
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-radius: 6px;
-  padding: 10px 15px;
-  text-align: left;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.option-btn:hover:not(:disabled) {
-  background-color: #e9ecef;
-}
-
-.option-btn.correct {
-  background-color: var(--correct-bg) !important;
-  border-color: var(--correct-color) !important;
-  color: var(--correct-color) !important;
-  font-weight: bold;
-}
-
-.option-btn.incorrect {
-  background-color: var(--incorrect-bg) !important;
-  border-color: var(--incorrect-color) !important;
-  color: var(--incorrect-color) !important;
-}
-
-.btn {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 15px;
-}
-
-.btn:hover {
-  opacity: 0.9;
+    qBlock.appendChild(optionsGrid);
+    container.appendChild(qBlock);
+  });
 }
