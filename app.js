@@ -94,6 +94,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  const storySelect = document.getElementById('storySelect');
+  if (storySelect) {
+    storySelect.addEventListener('change', (e) => {
+      currentKasusIndex = parseInt(e.target.value, 10);
+      userAnswers = {};
+      renderAll();
+    });
+  }
+
   const nextBtn = document.getElementById('next-story-btn');
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
@@ -119,13 +128,32 @@ async function fetchKasusData() {
   }
 }
 
+function populateStorySelect() {
+  const storySelect = document.getElementById('storySelect');
+  if (!storySelect || !kasusData || kasusData.length === 0) return;
+
+  storySelect.innerHTML = '';
+  kasusData.forEach((kasus, index) => {
+    const opt = document.createElement('option');
+    opt.value = index;
+    opt.textContent = convertToAksara(kasus.judul);
+    if (index === currentKasusIndex) {
+      opt.selected = true;
+    }
+    storySelect.appendChild(opt);
+  });
+}
+
 function renderAll() {
   if (!kasusData || kasusData.length === 0) return;
 
   document.getElementById('ui-title').textContent = convertToAksara("Aplikasi Maca Aksara Jawa");
   document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Pauger-an:");
+  document.getElementById('ui-label-story').textContent = convertToAksara("Pilih Crita:");
   document.getElementById('ui-questions-title').textContent = convertToAksara("Wangsul-ana Pitakon-Pitakon Ing Ngisor Iki:");
   document.getElementById('next-story-btn').textContent = convertToAksara("Crita Sabanjur-é");
+
+  populateStorySelect();
 
   const activeKasus = kasusData[currentKasusIndex];
 
