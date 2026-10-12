@@ -49,7 +49,7 @@ function renderAll() {
 
   // Render Label UI Statis ke Aksara Jawa (Dropdown dikecualikan)
   document.getElementById('ui-title').textContent = convertToAksara("kuis Aksara jawa");
-  document.getElementById('ui-label-paugeran').textContent = convertToAksara("pilih paugeran:");
+  document.getElementById('ui-label-paugeran').textContent = convertToAksara("pilih pauger-an:");
   document.getElementById('ui-questions-title').textContent = convertToAksara("wangsul-ana pitakon ing ngisor iki:");
   document.getElementById('next-story-btn').textContent = convertToAksara("crita sabanjur-é");
 
