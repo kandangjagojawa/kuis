@@ -9,41 +9,36 @@
 <body>
 
   <header class="app-header">
-    <h1 id="ui-title" class="aksara-jawa">Aplikasi Maca Aksara Jawa</h1>
+    <h1 id="ui-title" class="aksara-jawa"></h1>
     <div class="paugeran-selector">
-      <label for="paugeranSelect" id="ui-label-paugeran" class="aksara-jawa">Pilih Paugeran Transliterasi:</label>
-      <select id="paugeranSelect">
-        <option value="kbj">Paugeran KBJ</option>
-        <option value="sriwedari" selected>Paugeran Sriwedari</option>
-        <option value="kawi">Cara Kawi (Mardi Kawi)</option>
+      <label for="paugeranSelect" id="ui-label-paugeran" class="aksara-jawa"></label>
+      <select id="paugeranSelect" class="aksara-jawa">
+        <option value="kbj" id="opt-kbj" selected></option>
+        <option value="sriwedari" id="opt-sriwedari"></option>
+        <option value="kawi" id="opt-kawi"></option>
       </select>
     </div>
   </header>
 
   <main class="container">
-    <!-- Section Teks Cerita -->
     <section class="story-card">
       <h2 id="story-title" class="aksara-jawa"></h2>
       <article id="story-content" class="aksara-jawa story-text"></article>
     </section>
 
-    <!-- Section Soal-Soal -->
     <section class="questions-card">
-      <h3 id="ui-questions-title" class="aksara-jawa">Wangsulana Pitakon-Pitakon Ing Ngisor Iki:</h3>
+      <h3 id="ui-questions-title" class="aksara-jawa"></h3>
       <div id="questions-container"></div>
 
       <div class="navigation-area">
-        <button id="next-story-btn" class="aksara-jawa btn" style="display: none;">Crita Sabanjuré</button>
+        <button id="next-story-btn" class="aksara-jawa btn" style="display: none;"></button>
       </div>
     </section>
   </main>
 
-  <!-- Pustaka Transliterasi -->
   <script src="kbj.js"></script>
   <script src="sriwedari.js"></script>
   <script src="carakawi.js"></script>
-
-  <!-- Logika Aplikasi -->
   <script src="app.js"></script>
 </body>
 </html>
