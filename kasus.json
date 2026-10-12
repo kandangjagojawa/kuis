@@ -94,7 +94,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung wungu ing crita ndhuwur tegesé yaiku",
+        "pertanyaan": "tembung wungu ing crita ndhuwur teges-é yaiku",
         "pilihan": [
           "turu",
           "tangi",
@@ -105,7 +105,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung kondur ing crita ndhuwur nduwéni teges",
+        "pertanyaan": "tembung kondur ing crita ndhuwur nduwé-ni teges",
         "pilihan": [
           "menyang",
           "mulih",
@@ -134,7 +134,7 @@
       },
       {
         "id": 2,
-        "pertanyaan": "pira tabuh nalika bél sekolah mungel kanggo upacara?",
+        "pertanyaan": "tabuh pira nalika bél sekolah mungel kanggo upacara?",
         "pilihan": [
           "tabuh enem",
           "tabuh pitu",
@@ -145,7 +145,7 @@
       },
       {
         "id": 3,
-        "pertanyaan": "sapa sing dadi pembina upacara ing lapangan sekolah?",
+        "pertanyaan": "sapa sing dadi pembina upacara ing lapang-an sekolah?",
         "pilihan": [
           "bapak pangarsa pamulang-an",
           "ibu guru basa jawa",
@@ -156,7 +156,7 @@
       },
       {
         "id": 4,
-        "pertanyaan": "apa sing didhawuh-aké bapak kepala sekolah nalika paring pitutur?",
+        "pertanyaan": "apa sing didhawuh-aké bapak pangarsa pamulang-an nalika paring pitutur?",
         "pilihan": [
           "babag-an karesik-an lingkung-an",
           "babag-an kedhisiplin-an lan wigatos-ing sinau",
@@ -236,7 +236,7 @@
   {
     "id": 3,
     "judul": "crita 3",
-    "cerita": "saben dinten minggu soré, para ibu ing kampung wirasan sami kempal wonten ing balé dhusun saperlu nindak-aken kegiat-an arisan. swasana ing balé dhusun katingal ramé lan ngremen-aken amargi para ibu sami ngendikan kanthi guyub rukun sarta bebareng-an nglaras wédang téh anget lan dhahar jajan-an pasar.\n\npuncak-ipun acara inggih punika nalika ngocok kocok-an arisan supados mangertos-i sinten ingkang pikantuk arisan ing dinten punika. nalika nami ingkang pikantuk sampun kawaos-aken, sadaya ibu sami keplok-keplok lan gumujeng kanthi bingah. kegiat-an arisan punika boten namung kanggé ngumpul-aken arta, nanging ugi kanggé njaga pasedulur-an lan kerukun-an warga.",
+    "cerita": "saben dinten minggu soré, para ibu ing kampung wirasan sami kempal wonten ing balé dhusun saperlu nindak-aken kegiat-an arisan. swasana ing balé dhusun katingal ramé lan ngremen-aken amargi para ibu sami ngendikan kanthi guyub rukun sarta bebareng-an nglaras wédang téh anget lan dhahar jajan-an pasar.\n\npuncak-ipun acara inggih punika nalika ngocok kocok-an arisan supados mangertos-i sinten ingkang pikantuk arisan ing dinten punika. nalika nami ingkang pikantuk sampun kawaos-aken, para ibu sami keplok-keplok lan gumujeng kanthi bingah. kegiat-an arisan punika boten namung kanggé ngumpul-aken arta, nanging ugi kanggé njaga pasedulur-an lan kerukun-an warga.",
     "soal": [
       {
         "id": 1,
