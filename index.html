@@ -14,12 +14,21 @@
   <header class="app-header">
     <h1 id="ui-title" class="aksara-jawa"></h1>
     <div class="paugeran-selector">
-      <label for="paugeranSelect" id="ui-label-paugeran" class="aksara-jawa"></label>
-      <select id="paugeranSelect">
-        <option value="kbj" selected>Paugeran KBJ</option>
-        <option value="sriwedari">Paugeran Sriwedari</option>
-        <option value="kawi">Cara Kawi (Mardi Kawi)</option>
-      </select>
+      <span id="ui-label-paugeran" class="aksara-jawa"></span>
+      <div class="paugeran-options">
+        <label class="paugeran-option">
+          <input type="radio" name="paugeran" value="kbj" checked>
+          <span>Paugeran KBJ</span>
+        </label>
+        <label class="paugeran-option">
+          <input type="radio" name="paugeran" value="sriwedari">
+          <span>Paugeran Sriwedari</span>
+        </label>
+        <label class="paugeran-option">
+          <input type="radio" name="paugeran" value="kawi">
+          <span>Cara Kawi (Mardi Kawi)</span>
+        </label>
+      </div>
     </div>
   </header>
 
