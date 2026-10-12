@@ -7,37 +7,67 @@
       {
         "id": 1,
         "pertanyaan": "jam pira simbah kakung wungu ing wayah énjang?",
-        "pilihan": ["jam papat", "jam lima", "jam enem", "jam pitu"],
+        "pilihan": [
+          "jam papat",
+          "jam lima",
+          "jam enem",
+          "jam pitu"
+        ],
         "kunci": 1
       },
       {
         "id": 2,
         "pertanyaan": "apa sing diunjuk simbah kakung nalika ing teras ngajeng?",
-        "pilihan": ["kopi panas", "wédang jahé", "téh anget", "és dhawet"],
+        "pilihan": [
+          "kopi panas",
+          "wédang jahé",
+          "téh anget",
+          "és dhawet"
+        ],
         "kunci": 2
       },
       {
         "id": 3,
         "pertanyaan": "dhahar-an apa sing didhahar simbah kakung ing wayah énjang?",
-        "pilihan": ["pisang goréng", "tahu goréng", "jadah bakar", "roti kukus"],
+        "pilihan": [
+          "pisang goréng",
+          "tahu goréng",
+          "jadah bakar",
+          "roti kukus"
+        ],
         "kunci": 0
       },
       {
         "id": 4,
         "pertanyaan": "sapa sing nyawis-aké dhahar-an sanésé kagem simbah kakung?",
-        "pilihan": ["bakyu", "ibu", "adhik", "bapak"],
+        "pilihan": [
+          "bakyu",
+          "ibu",
+          "adhik",
+          "bapak"
+        ],
         "kunci": 1
       },
       {
         "id": 5,
         "pertanyaan": "simbah kakung tindak menyang ngendi nalika srengéngé wis miwit-i dhuwur?",
-        "pilihan": ["menyang pasar", "menyang kantor", "menyang sabin", "menyang puskesmas"],
+        "pilihan": [
+          "menyang pasar",
+          "menyang kantor",
+          "menyang sabin",
+          "menyang puskesmas"
+        ],
         "kunci": 2
       },
       {
         "id": 6,
         "pertanyaan": "simbah kakung tindak menyang sabin nitih apa?",
-        "pilihan": ["sepédha motor", "sepédha ontél", "mobil", "dhokar"],
+        "pilihan": [
+          "sepédha motor",
+          "sepédha ontél",
+          "mobil",
+          "dhokar"
+        ],
         "kunci": 1
       },
       {
@@ -65,14 +95,141 @@
       {
         "id": 9,
         "pertanyaan": "tembung wungu ing crita ndhuwur tegesé yaiku",
-        "pilihan": ["turu", "tangi", "adus", "lungguh"],
+        "pilihan": [
+          "turu",
+          "tangi",
+          "adus",
+          "lungguh"
+        ],
         "kunci": 1
       },
       {
         "id": 10,
         "pertanyaan": "tembung kondur ing crita ndhuwur nduwéni teges",
-        "pilihan": ["menyang", "mulih", "lunga", "mlebu"],
+        "pilihan": [
+          "menyang",
+          "mulih",
+          "lunga",
+          "mlebu"
+        ],
         "kunci": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "judul": "crita padintenan",
+    "cerita": "saben dinten senin, para siswa ing sd suka maju nindakaken upacara bendéra wonten ing lapangan sekolah. nalika bél mungel ing tabuh pitu, sadaya siswa lan para dwija sampun siyap lan kempal kanthi rapi. bapak kepala sekolah dados pembina upacara sarta maringi pitutur babagan kedisiplinan lan wigatosing sinau kanthi sregep.\n\nsasampunipun upacara kapungkur, para siswa lajeng lumebet dhumateng kelas piyambak-piyambak saperlu nampani piwulang. ibu guru ngandharaken matéri babagan piwulang basa jawa kanthi remen lan sabar. sadaya siswa sami mirengaken piwulanganipun ibu guru lan nindakaken gladhén kanthi semangat.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "ing dina apa para siswa sd suka maju nindakaké upacara bendéra?",
+        "pilihan": [
+          "dina setu",
+          "dina minggu",
+          "dina senin",
+          "dina selasa"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 2,
+        "pertanyaan": "pira tabuh nalika bél sekolah mungel kanggo upacara?",
+        "pilihan": [
+          "tabuh enem",
+          "tabuh pitu",
+          "tabuh wolu",
+          "tabuh sanga"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 3,
+        "pertanyaan": "sapa sing dadi pembina upacara ing lapangan sekolah?",
+        "pilihan": [
+          "bapak kepala sekolah",
+          "ibu guru basa jawa",
+          "penjaga sekolah",
+          "ketua kelas"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 4,
+        "pertanyaan": "apa sing didhawuhaké bapak kepala sekolah nalika paring pitutur?",
+        "pilihan": [
+          "babagan keresihan lingkungan",
+          "babagan kedisiplinan lan wigatosing sinau",
+          "babagan olahraga sesarengan",
+          "babagan tata tertib perpustakaan"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "para siswa mlebu menyang ngendi sawisé upacara kapungkur?",
+        "pilihan": [
+          "menyang kantin",
+          "menyang perpustakaan",
+          "menyang kelas piyambak-piyambak",
+          "menyang lapangan"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 6,
+        "pertanyaan": "piwulang apa sing diandharaké déning ibu guru ing kelas?",
+        "pilihan": [
+          "piwulang matematika",
+          "piwulang basa jawa",
+          "piwulang basa inggris",
+          "piwulang ips"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 7,
+        "pertanyaan": "kepiyé wateké ibu guru nalika ngandharaké matéri piwulang?",
+        "pilihan": [
+          "duka lan galak",
+          "remen lan sabar",
+          "kesesa-sesa",
+          "bingung lan sepi"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 8,
+        "pertanyaan": "apa sing ditindakaké para siswa nalika ibu guru paring piwulangan?",
+        "pilihan": [
+          "ramé lan dolanan piyambak",
+          "turu ing njero kelas",
+          "mirengaken lan nindakaké gladhén kanthi semangat",
+          "metu saka njero kelas"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung \"dwija\" ing crita ndhuwur nduwéni teges yaiku ...",
+        "pilihan": [
+          "murid / siswa",
+          "guru / pengajar",
+          "wali murid",
+          "kepala désa"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung \"kapungkur\" ing crita ndhuwur tegesé padha karo ...",
+        "pilihan": [
+          "rampung / bar",
+          "mungel / unyi",
+          "miwiti / mulai",
+          "siyap / tata"
+        ],
+        "kunci": 0
       }
     ]
   }
