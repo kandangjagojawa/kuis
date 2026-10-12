@@ -1,23 +1,16 @@
 @font-face {
-  font-family: 'Ngayogyakarta';
+  font-family: 'Ngayogyann';
   src: url('ngayogyann.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Ngayogyakarta';
-  src: url('ngayogyann.ttf') format('truetype');
+  font-family: 'Ngayogyan';
+  src: url('ngayogyan.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-.aksara-jawa {
-  font-family: 'Ngayogyakarta', serif;
-  line-height: 2.0;
-  font-size: 1.35rem;
-}
-
 
 :root {
   --bg-color: #f4f1ea;
@@ -40,7 +33,7 @@ body {
 }
 
 .aksara-jawa {
-  font-family: 'Ngayogyakarta', serif;
+  font-family: 'Ngayogyann', serif;
   line-height: 1.8;
   font-size: 1.35rem;
 }
