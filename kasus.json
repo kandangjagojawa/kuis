@@ -470,7 +470,7 @@
   {
     "id": 5,
     "judul": "crita 5",
-    "cerita": "nalika préhi sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu plesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisik-i piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan macan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangan-ipun setya supados boten lepas malih.",
+    "cerita": "nalika préhi sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu pelesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisiki piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangani-pun setya supados boten lepas malih.",
     "soal": [
       {
         "id": 1,
@@ -521,7 +521,7 @@
         "pertanyaan": "ing ngendi setya pungkasan-é bisa kapanggih déning bapak?",
         "pilihan": [
           "ing cedhak lawang mlebu",
-          "ing ngarep kandhang kéwan macan",
+          "ing ngarep kandhang kéwan",
           "ing warung",
           "ing njero mobil"
         ],
@@ -551,7 +551,7 @@
       },
       {
         "id": 8,
-        "pertanyaan": "sapa jeneng anak sing paling alit ing kulawarga kasebut?",
+        "pertanyaan": "sapa anak sing paling alit ing kulawarga kasebut?",
         "pilihan": [
           "tini",
           "setya",
@@ -579,6 +579,123 @@
           "rai",
           "tangan",
           "rambut"
+        ],
+        "kunci": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "judul": "crita 6",
+    "cerita": "gembil, suryani, kartika, krisna, lan naréndra inggih punika gangsal kanca cerak ingkang dalem-ipun satunggal kampung lan tansah rukun sanget. saben énjang, bocah gangsal punika tansah bidhal dhumateng sekolah sesareng-an kanthi lumampah nyambi gegojég-an lan ngguyu bingah. keakrab-anipun bocah gangsal punika boten namung wonten ing kampung, nanging ugi katingal nalika wonten ing sekolah.\n\nnalika jam ngaso ing sekolah, gembil lan kanca kanca-nipun nindak-aken ameng ameng-an tradisional inggih punika gobak sodor wonten ing lapang-an sesareng-an kaliyan kanca sanes-ipun. swasana katingal ramé lan ngremen-aken sanget amargi sadaya siswa sami mlayu lan keplok keplok kanthi bingah. menawi wonten kanca ingkang ngrasa-kaken angél nalika sinau, para sahabat punika tansah siyap mbiyantu ngajar-i ngantos saged.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "pira cacahé kanca cerak sing dicrita-kaké ing ndhuwur?",
+        "pilihan": [
+          "telu",
+          "papat",
+          "lima",
+          "enem"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 2,
+        "pertanyaan": "kepiyé carané bocah lima iku bidhal menyang sekolah ing wayah énjang?",
+        "pilihan": [
+          "numpak pit",
+          "mlaku sesareng-an",
+          "numpak mobil",
+          "dianter wong tuwané"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 3,
+        "pertanyaan": "dolan-an tradisional apa sing ditindak-aké nalika jam ngaso ing sekolah?",
+        "pilihan": [
+          "égrang",
+          "gobak sodhor",
+          "éngklék",
+          "benthik"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 4,
+        "pertanyaan": "ana ing ngendi para bocah iku padha dolan-an gobak sodor?",
+        "pilihan": [
+          "ing njero kelas",
+          "ing lapang-an sekolah",
+          "ing kantin",
+          "ing dalan gedhé"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "kepiyé swasana nalika para siswa padha dolan-an ing lapang-an?",
+        "pilihan": [
+          "ramé lan ngremen-aké",
+          "sepi lan peteng",
+          "wedi lan sedhih",
+          "panik lan bingung"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 6,
+        "pertanyaan": "apa sing ditindak-aké gembil lan kanca-né yen ana siswa sing ngrasa-kaké angél nalika sinau?",
+        "pilihan": [
+          "ngécé lan ngguyu",
+          "ninggal-aké piyambak-an",
+          "mbiyantu lan ngajar-i nganti bisa",
+          "nglapor-aké marang ibu guru"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 7,
+        "pertanyaan": "saliya-né ing sekolah, ing ngendi manéh bocah lima iku padha rukun lan akrab?",
+        "pilihan": [
+          "ing pasar",
+          "ing kampung",
+          "ing kutha",
+          "ing gunung"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 8,
+        "pertanyaan": "sapa waé sing dadi paraga ing crita ing ndhuwur?",
+        "pilihan": [
+          "bapak, ibu, lan para guru",
+          "gembil, suryani, kartika, krisna, lan naréndra",
+          "para tani lan para warga",
+          "simbah kakung lan ibu"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung angél ing crita ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "gampang",
+          "susah",
+          "énggal",
+          "seneng"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung cerak ing crita ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "adoh",
+          "cedhak utawa raket",
+          "anyar",
+          "sepi"
         ],
         "kunci": 1
       }
