@@ -470,7 +470,7 @@
   {
     "id": 5,
     "judul": "crita 5",
-    "cerita": "nalika préhi sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu pelesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisiki piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangani-pun setya supados boten lepas malih.",
+    "cerita": "nalika préhi sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu plesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisik-i piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan macan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangan-ipun setya supados boten lepas malih.",
     "soal": [
       {
         "id": 1,
@@ -521,7 +521,7 @@
         "pertanyaan": "ing ngendi setya pungkasan-é bisa kapanggih déning bapak?",
         "pilihan": [
           "ing cedhak lawang mlebu",
-          "ing ngarep kandhang kéwan",
+          "ing ngarep kandhang kéwan macan",
           "ing warung",
           "ing njero mobil"
         ],
@@ -551,7 +551,7 @@
       },
       {
         "id": 8,
-        "pertanyaan": "sapa anak sing paling alit ing kulawarga kasebut?",
+        "pertanyaan": "sapa jeneng anak sing paling alit ing kulawarga kasebut?",
         "pilihan": [
           "tini",
           "setya",
