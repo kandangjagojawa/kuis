@@ -700,5 +700,122 @@
         "kunci": 1
       }
     ]
+  },
+  {
+    "id": 7,
+    "judul": "crita 7",
+    "cerita": "ing dhusun, gembil, suryani, kartika, krisna, lan naréndra misuwur minangka bocah-bocah ingkang remen mbiyantu para warga. saben dinten soré sasampun-ipun ngaso, bocah gangsal punika asring mlampah mlampah ing saubeng-ipun kampung saperlu mbiyantu para simbah ingkang mbetah-aken pitulung-an, kayata ngasta blanjan utawi ngempal-aken suket kanggé ingon-ingon.\n\nsasampun-ipun nindak-aken pakaryan saé punika, gembil lan kanca kanca-nipun lajeng kempal wonten ing lapangan kampung kanggé ameng ameng-an layangan lan égrang sesareng-an kaliyan bocah bocah sanés-ipun. swasana ing kampung katingal ramé lan ngremen-aken sanget, amargi para warga sami ngalem kasunyatan manawa para sahabat punika boten namung pinter dolan-an, nanging ugi kagung-an manah ingkang luhur lan seneng gotong royong.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "sapa waé paraga sing dicrita-kaké ing dhusun kasebut?",
+        "pilihan": [
+          "para guru lan murid",
+          "gembil, suryani, kartika, krisna, lan naréndra",
+          "para tani lan para pedagang",
+          "bapak lan ibu guru"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 2,
+        "pertanyaan": "kapan bocah lima iku biyasa-né mlaku-mlaku mbiyantu warga kampung?",
+        "pilihan": [
+          "saben dinten ésuk",
+          "saben dinten soré",
+          "saben bengi",
+          "saben tengah wengi"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 3,
+        "pertanyaan": "apa sing ditindak-aké gembil lan kanca kanca-né kanggo mbiyantu para simbah?",
+        "pilihan": [
+          "nggawa blanjan lan ngumpul-aké suket",
+          "dodol-an ing pasar",
+          "ngrusak tandur-an",
+          "dolan-an banyu"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 4,
+        "pertanyaan": "ana ing ngendi bocah-bocah iku padha kempal sawis-é mbiyantu para warga?",
+        "pilihan": [
+          "ing pasar",
+          "ing lapang-an kampung",
+          "ing njero omah",
+          "ing sekolah"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "dolan-an apa sing ditindak-aké ing lapang-an kampung?",
+        "pilihan": [
+          "bal-bal-an lan catur",
+          "layangan lan égrang",
+          "éngklék lan benthik",
+          "catur lan dam-dam-an"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 6,
+        "pertanyaan": "kepiyé sikap-é para warga marang gembil lan kanca kanca-né?",
+        "pilihan": [
+          "duka lan nesu",
+          "ngalem lan seneng",
+          "ora peduli",
+          "wedi"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 7,
+        "pertanyaan": "saliya-né pinter dolan-an, apa sing diduwé-ni bocah lima iku miturut para warga?",
+        "pilihan": [
+          "manah sing luhur lan seneng gotong royong",
+          "rasa sombong",
+          "sikap pamér",
+          "rasa kesel"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 8,
+        "pertanyaan": "sapa sing melu dolan-an layangan lan égrang ing lapang-an kampung?",
+        "pilihan": [
+          "para bapak bapak waé",
+          "gembil, kanca kanca-né, lan bocah bocah liya-né",
+          "ibu ibu waé",
+          "para pedagang"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung mbetah-aken ing crita ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "butuh utawa mbutuh-aké",
+          "mbuwang",
+          "ngedol",
+          "mlayu"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung ngalem ing crita ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "nyenen-i",
+          "ngalembana",
+          "nesu nesu",
+          "ninggal-aké"
+        ],
+        "kunci": 1
+      }
+    ]
   }
 ]
