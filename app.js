@@ -14,6 +14,10 @@ function convertToAksara(text) {
     result = window.transliterasiKawi(lowerText);
   } else if (currentPaugeran === 'sriwedari' && typeof window.transliterasiSriwedari === 'function') {
     result = window.transliterasiSriwedari(lowerText);
+  } else if (currentPaugeran === 'kaj_simplified' && typeof window.transliterasiSimplified === 'function') {
+    result = window.transliterasiSimplified(lowerText);
+  } else if (currentPaugeran === 'kaj_tradisional' && typeof window.transliterasiTradisional === 'function') {
+    result = window.transliterasiTradisional(lowerText);
   } else {
     result = lowerText;
   }
@@ -23,7 +27,8 @@ function convertToAksara(text) {
 }
 
 function updateActiveFont() {
-  const activeFontFamily = (currentPaugeran === 'kawi') ? "'Ngayogyan', serif" : "'Ngayogyann', serif";
+  const isNgayogyan = (currentPaugeran === 'kawi' || currentPaugeran === 'kaj_tradisional');
+  const activeFontFamily = isNgayogyan ? "'Ngayogyan', serif" : "'Ngayogyann', serif";
   const elements = document.querySelectorAll('.aksara-jawa');
   elements.forEach(el => {
     el.style.fontFamily = activeFontFamily;
@@ -67,7 +72,9 @@ async function loadTransliterators() {
   const scripts = [
     { name: 'transliterasiKBJ', file: 'kbj.js', func: 'transliterasiKalimat' },
     { name: 'transliterasiSriwedari', file: 'sriwedari.js', func: 'transliterasiKalimat' },
-    { name: 'transliterasiKawi', file: 'carakawi.js', func: 'transliterateKawi' }
+    { name: 'transliterasiKawi', file: 'carakawi.js', func: 'transliterateKawi' },
+    { name: 'transliterasiSimplified', file: 'simplified.js', func: 'transliterasiKalimat' },
+    { name: 'transliterasiTradisional', file: 'tradisional.js', func: 'transliterateKawi' }
   ];
 
   for (const script of scripts) {
