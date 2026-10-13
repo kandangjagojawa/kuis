@@ -942,5 +942,123 @@
         "kunci": 2
       }
     ]
+  },
+  {
+    "id": 9,
+    "judul": "crita 9",
+    "gambar": "crita9.jpg",
+    "cerita": "nalika ing wanci soré, gembil, naréndra, suryani, kartika, lan krisna sami lumampah sesareng-an saperlu kondur dhumateng dalem-ipun piyambak piyambak. sadéréng-ipun nyabrang ing mergi ingkang ramé kendharaan, gangsal bocah punika mandheg rumiyin wonten ing nginggil panyabrang-an zébrakros saperlu mriksa kawonten-an. gembil lan naréndra ngémut-aken kanca kanca-nipun supados setiti mriksani sisih kiwa lan tengen kanggé njaga kawilujeng-an.\n\nbocah gangsal punika nembé lumampah nyabrang nalika sadaya kendharaan sampun mandheg lan lampu pituduh kanggé panyabrang sampun mawi werna ijo. naréndra lan suryani ugi ngangkat asta-nipun minangka pituduh supados para pangguna kendharaan mangertos-i manawi wonten tiyang ingkang saweg nyabrang. kanthi nindak-aken tata cara ingkang leres punika, gangsal bocah saged nyabrang mergi kanthi wilujeng lan tentrem.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "apa sing ditindak-aké gembil lan kanca-né sadurung-é nyabrang dalan?",
+        "pilihan": [
+          "mlayu gancang-an",
+          "mandheg dhisik ing zébrakros lan mriksa kahan-an",
+          "langsung nyabrang tanpa ndeleng",
+          "dolan-an bal-balan"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 2,
+        "pertanyaan": "ing ngendi gembil lan kanca-né padha mandheg nalika arep nyabrang?",
+        "pilihan": [
+          "ing zébrakros",
+          "ing tengah mergi",
+          "ing pinggir selokan",
+          "ing ngarep toko"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 3,
+        "pertanyaan": "arah ngendi sing kudu dipriksa-ni kanthi setiti nalika arep nyabrang?",
+        "pilihan": [
+          "dhuwur lan ngisor",
+          "mburi waé",
+          "kiwa lan tengen",
+          "njero lan njaba"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 4,
+        "pertanyaan": "kapan bocah bocah iku wiwit lumampah nyabrang mergi?",
+        "pilihan": [
+          "nalika kendharaan isih banter",
+          "nalika lampu pituduh warna abang",
+          "nalika kendharaan ora ana sing nyemprot",
+          "nalika kabéh kendharaan wis mandheg lan lampu werna ijo"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 5,
+        "pertanyaan": "sapa waé paraga sing dicrita-kaké ing crita kasebut?",
+        "pilihan": [
+          "gembil, naréndra, suryani, kartika, lan krisna",
+          "bapak, ibu, lan para guru",
+          "para tani lan pedagang",
+          "simbah kakung lan para warga"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 6,
+        "pertanyaan": "apa sing ditindak-aké naréndra lan suryani kanggo pituduh para pangguna kendharaan?",
+        "pilihan": [
+          "mlaku karo nembang",
+          "ngangkat tangan-é",
+          "njerit banter",
+          "ngucap-aké salam"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 7,
+        "pertanyaan": "apa guna utawa tujuan nindak-aké aturan nyabrang sing leres?",
+        "pilihan": [
+          "supados cepet ngelak",
+          "supaya oléh hadiah",
+          "kanggo njaga kawilujeng-an lan slamet",
+          "kanggo pamer marang kanca"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 8,
+        "pertanyaan": "werna apa lampu pituduh kanggo panyabrang sing tandha-né wis kena nyabrang?",
+        "pilihan": [
+          "werna abang",
+          "werna kuning",
+          "werna ireng",
+          "werna ijo"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung [\\kawilujeng-an\\] ing crita ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "kaslamet-an",
+          "cilaka",
+          "kangél-an",
+          "kasusah-an"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung [\\leres\\] ing crita ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "salah",
+          "bener utawa trep",
+          "miring",
+          "kléru"
+        ],
+        "kunci": 1
+      }
+    ]
   }
 ]
