@@ -233,7 +233,23 @@ function renderAll() {
   const activeKasus = kasusData[currentKasusIndex];
 
   document.getElementById('story-title').textContent = convertToAksara(activeKasus.judul);
-  document.getElementById('story-content').textContent = convertToAksara(activeKasus.cerita);
+
+  // Render Gambar dan Teks Cerita Aksara Jawa secara bersamaan
+  const storyContentEl = document.getElementById('story-content');
+  if (storyContentEl) {
+    storyContentEl.innerHTML = '';
+
+    if (activeKasus.gambar) {
+      const imgEl = document.createElement('img');
+      imgEl.src = activeKasus.gambar;
+      imgEl.alt = activeKasus.judul || 'Gambar Crita';
+      imgEl.className = 'story-img';
+      storyContentEl.appendChild(imgEl);
+    }
+
+    const textNode = document.createTextNode(convertToAksara(activeKasus.cerita));
+    storyContentEl.appendChild(textNode);
+  }
 
   const latinContent = document.getElementById('story-latin-content');
   if (latinContent) {
