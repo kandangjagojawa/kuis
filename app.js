@@ -178,7 +178,7 @@ function renderSoal(soalList) {
 
   if (!soalList || !Array.isArray(soalList)) return;
 
-  const prefixes = ['a. ', 'b. ', 'c. ', 'd. '];
+  const prefixes = ['ha. ', 'na. ', 'ca. ', 'ra. '];
 
   soalList.forEach((q, qIndex) => {
     const qBlock = document.createElement('div');
