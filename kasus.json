@@ -679,7 +679,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung [\angél\] ing crita ndhuwur nduwé-ni teges padha karo",
+        "pertanyaan": "tembung [\\angél\\] ing crita ndhuwur nduwé-ni teges padha karo",
         "pilihan": [
           "gampang",
           "susah",
@@ -690,7 +690,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung [\cerak\] ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\\cerak\\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "adoh",
           "cedhak utawa raket",
