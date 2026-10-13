@@ -2,6 +2,7 @@
  * CARAKAWI.JS
  * Transliterasi Aksara Jawa Cara Kawi (Mardi Kawi)
  * Penyesuaian aturan r mati di tengah kata: tidak merangkap konsonan ha, nga, nya.
+ * Penyesuaian R mati + ya: Aksara ra tidak dipengkal, melainkan repha (layar) + ya dipengkal (ꦂꦪꦾ).
  */
 
 const textInput = document.getElementById('textInput');
@@ -15,7 +16,6 @@ const charCount = document.getElementById('charCount');
 const copyBtn = document.getElementById('copyBtn');
 const clearBtn = document.getElementById('clearBtn');
 
-// Map Konsonan Mardi Kawi dengan Murda/Ra Agung sesuai kaidah Sriwedari (N, K, T, S, P, G, B, J, NY, R -> Ra Agung 'ꦬ')
 const CONS_MAP = {
     'th': 'ꦛ', 'dh': 'ꦝ', 'ny': 'ꦚ', 'ng': 'ꦔ',
     'TH': 'ꦜ', 'DH': 'ꦞ', 'NY': 'ꦘ', 'Ny': 'ꦘ', 'NG': 'ꦔ',
@@ -148,7 +148,6 @@ function transliterateKawi(rawText) {
     
     rawText = processMacros(rawText);
 
-    // Mapping Simbol & Pada Unicode Aksara Jawa
     rawText = rawText
         .replace(/\|\|/g, '\uA9CB')
         .replace(/\|/g, '\uA9CA')
@@ -320,7 +319,9 @@ function transliterateKawi(rawText) {
                 if (cons.key === 'r') rSeenInWord = true;
 
                 let handledWyanjana = false;
-                if (nextIdx < word.length) {
+
+                // Aksara Ra tidak boleh diberi pasangan/sandhangan wyanjana (pengkal/cakra/cakra keret/nga lelet)
+                if (cons.key !== 'r' && nextIdx < word.length) {
                     let nextConsTemp2 = matchConsonant(word, nextIdx);
 
                     if (nextConsTemp2 && nextConsTemp2.key === 'r') {
@@ -452,7 +453,7 @@ function transliterateKawi(rawText) {
                 // --- PENANGANAN KONSONAN R MATI DI TENGAH KATA ---
                 if (cons.key === 'r') {
                     if (!isWordEnd) {
-                        result += consChar + '꧀';
+                        result += 'ꦂ'; // Menggunakan Repha (Layar)
                         let nextConsTemp = matchConsonant(word, peekIdx);
 
                         if (nextConsTemp) {
@@ -491,7 +492,12 @@ function transliterateKawi(rawText) {
                             if (v2Match) {
                                 let v2 = v2Match.val;
                                 if (doubleIt) {
-                                    result += consChar2_1 + '꧀' + consChar2_2 + getSandhanganVowel(v2);
+                                    // Semua pasangan 'ya' adalah pengkal
+                                    if (nextConsTemp.key === 'y') {
+                                        result += consChar2_1 + 'ꦾ' + getSandhanganVowel(v2);
+                                    } else {
+                                        result += consChar2_1 + '꧀' + consChar2_2 + getSandhanganVowel(v2);
+                                    }
                                 } else {
                                     result += consChar2_1 + getSandhanganVowel(v2);
                                 }
@@ -499,7 +505,11 @@ function transliterateKawi(rawText) {
                                 lastConsIsMati = false;
                             } else {
                                 if (doubleIt) {
-                                    result += consChar2_1 + '꧀' + consChar2_2 + '꧀';
+                                    if (nextConsTemp.key === 'y') {
+                                        result += consChar2_1 + 'ꦾ꧀';
+                                    } else {
+                                        result += consChar2_1 + '꧀' + consChar2_2 + '꧀';
+                                    }
                                 } else {
                                     result += consChar2_1 + '꧀';
                                 }
@@ -520,7 +530,7 @@ function transliterateKawi(rawText) {
                             nextWordToken.val = nextWordToken.val.substr(crossVowel.len);
                             lastConsIsMati = false;
                         } else {
-                            result += 'ꦫ꧀';
+                            result += 'ꦫ꧀'; // Kawi tetap mempertahankan pangkon di akhir kata
                             lastConsIsMati = true;
                         }
                         i = nextIdx;
