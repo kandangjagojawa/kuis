@@ -120,7 +120,21 @@ body {
   padding: 0 15px;
 }
 
-.story-card, .questions-card {
+.story-card {
+  background-color: var(--card-bg);
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+  /* Penerapan Flexbox Vertikal */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.questions-card {
   background-color: var(--card-bg);
   padding: 25px;
   border-radius: 8px;
@@ -129,24 +143,22 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.story-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  flex-wrap: wrap;
-  gap: 10px;
+.story-text {
+  white-space: pre-wrap;
+  text-align: justify;
 }
 
-.story-header h2 {
-  margin: 0;
+.story-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .btn-latin {
   background-color: #1e88e5;
   color: #ffffff;
   border: none;
-  padding: 6px 16px;
+  padding: 8px 18px;
   font-size: 0.95rem;
   font-family: 'Gentium Plus', serif;
   border-radius: 5px;
@@ -162,11 +174,6 @@ body {
   background-color: #0d47a1;
 }
 
-.story-text {
-  white-space: pre-wrap;
-  text-align: justify;
-}
-
 .story-latin-text {
   font-family: 'Gentium Plus', serif;
   font-weight: 400;
@@ -175,7 +182,6 @@ body {
   line-height: 1.8;
   white-space: pre-wrap;
   text-align: justify;
-  margin-top: 15px;
   padding-top: 15px;
   border-top: 1px dashed var(--border-color);
 }
