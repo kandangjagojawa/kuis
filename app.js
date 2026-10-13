@@ -3,6 +3,47 @@ let kasusData = [];
 let currentKasusIndex = 0;
 let userAnswers = {};
 
+let latinTimer = null;
+let latinCountdownVal = 30;
+
+function stopLatinTimer() {
+  if (latinTimer) {
+    clearInterval(latinTimer);
+    latinTimer = null;
+  }
+  const latinContent = document.getElementById('story-latin-content');
+  const latinBtn = document.getElementById('btn-toggle-latin');
+  const timerInfo = document.getElementById('latin-timer-info');
+
+  if (latinContent) latinContent.style.display = 'none';
+  if (latinBtn) latinBtn.classList.remove('active');
+  if (timerInfo) timerInfo.style.display = 'none';
+}
+
+function startLatinTimer() {
+  if (latinTimer) clearInterval(latinTimer);
+  latinCountdownVal = 30;
+
+  const latinContent = document.getElementById('story-latin-content');
+  const latinBtn = document.getElementById('btn-toggle-latin');
+  const timerInfo = document.getElementById('latin-timer-info');
+  const countdownEl = document.getElementById('latin-countdown');
+
+  if (latinContent) latinContent.style.display = 'block';
+  if (latinBtn) latinBtn.classList.add('active');
+  if (timerInfo) timerInfo.style.display = 'inline-block';
+  if (countdownEl) countdownEl.textContent = latinCountdownVal;
+
+  latinTimer = setInterval(() => {
+    latinCountdownVal--;
+    if (countdownEl) countdownEl.textContent = latinCountdownVal;
+
+    if (latinCountdownVal <= 0) {
+      stopLatinTimer();
+    }
+  }, 1000);
+}
+
 function formatLatinText(text) {
   if (!text) return '';
   // 1. Hilangkan tanda hubung (-) yang ada di tengah kata
@@ -137,8 +178,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       const latinContent = document.getElementById('story-latin-content');
       if (latinContent) {
         const isHidden = latinContent.style.display === 'none' || !latinContent.style.display;
-        latinContent.style.display = isHidden ? 'block' : 'none';
-        latinBtn.classList.toggle('active', isHidden);
+        if (isHidden) {
+          startLatinTimer();
+        } else {
+          stopLatinTimer();
+        }
       }
     });
   }
@@ -175,6 +219,8 @@ function populateStorySelect() {
 
 function renderAll() {
   if (!kasusData || kasusData.length === 0) return;
+
+  stopLatinTimer();
 
   document.getElementById('ui-title').textContent = convertToAksara("Aplikasi Maca Aksara Jawa");
   document.getElementById('ui-label-paugeran').textContent = convertToAksara("Pilih Pauger-an:");
