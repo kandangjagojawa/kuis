@@ -817,5 +817,122 @@
         "kunci": 1
       }
     ]
+  },
+  {
+    "id": 8,
+    "judul": "crita 8",
+    "cerita": "saben dinten ing wanci subuh sadéréng-ipun srengéngé njedhul, kawonten-an ing peken sampun katingal ramé sanget. para bakul lan tiyang sadé-an sami rawuh saking pundi-pundi saperlu nata barang sadé-an kayata jangan-an, woh woh-an, sarta wos wonten ing lapak piyambak piyambak.\n\npara pamundhut ingkang mayoritas para ibu ugi sampun sami dhateng ing peken saperlu tumbas kabetah-an ingkang dipunbetah-aken ing saben dinten-ipun. swasana ing peken sangsaya ramé nalika wonten swanten guyon-an lan ngenyang rega antawis-ipun para bakul lan para pamundhut. keraméan ing wanci subuh punika nuduh-aken semangat-ipun masarakat anggén-ipun pados rejeki lan njaga rodha ékonomi.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "ing wanci apa kawonten-an ing peken wis wiwit ramé?",
+        "pilihan": [
+          "ing wanci soré",
+          "ing wanci tengah wengi",
+          "ing wanci subuh",
+          "ing wanci awan"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 2,
+        "pertanyaan": "barang apa waé sing disadé déning para bakul ing peken?",
+        "pilihan": [
+          "jangan-an, woh woh-an, lan wos",
+          "klambi lan sepatu",
+          "perhiasan lan emas",
+          "sepédha lan pit motor"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 3,
+        "pertanyaan": "sapa sing mayoritas rawuh ing peken ing wanci subuh kanggo tumbas kabetah-an?",
+        "pilihan": [
+          "para bapak",
+          "bocah bocah sekolah",
+          "para mudha",
+          "para ibu"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 4,
+        "pertanyaan": "swara apa sing nggawé kawonten-an ing peken sangsaya ramé?",
+        "pilihan": [
+          "swara musik lan tontonan",
+          "swara guyon lan ngenyang rega",
+          "swara motor",
+          "swara udan deres"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 5,
+        "pertanyaan": "apa tujuan-é para bakul teka ing peken ing wanci subuh?",
+        "pilihan": [
+          "kanggo dolan-an lan ngobrol",
+          "kanggo olah raga énjang",
+          "kanggo nata barang sadé-an ing lapak",
+          "kanggo rapat warga"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 6,
+        "pertanyaan": "keramé-an ing peken ing wanci subuh iku nuduh-aké apa?",
+        "pilihan": [
+          "semangat-ipun masarakat anggén-ipun pados rejeki",
+          "rasa seneng dolan-an",
+          "rasa wedi marang bengi",
+          "kahan-an sing sepi"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 7,
+        "pertanyaan": "ana ing ngendi para bakul nata barang sadé-ané?",
+        "pilihan": [
+          "ing njero omah",
+          "ing pinggir dalan gedhé",
+          "ing lapang-an désa",
+          "ing lapak piyambak piyambak"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 8,
+        "pertanyaan": "tembung [\\peken\\] ing crita ing ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "toko",
+          "pasar",
+          "warung",
+          "omah"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung [\\tumbas\\] ing crita ing ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "tuku",
+          "adol",
+          "mbuwang",
+          "nggawa"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung [\\sadé-an\\] ing crita ing ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "simpen-an",
+          "pangan-an mateng",
+          "dagang-an",
+          "klambi anyar"
+        ],
+        "kunci": 2
+      }
+    ]
   }
 ]
