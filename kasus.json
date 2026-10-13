@@ -94,7 +94,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung wungu ing crita ndhuwur teges-é yaiku",
+        "pertanyaan": "tembung [\\wungu\\] ing crita ndhuwur teges-é yaiku",
         "pilihan": [
           "turu",
           "tangi",
@@ -105,7 +105,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung kondur ing crita ndhuwur nduwé-ni teges",
+        "pertanyaan": "tembung [\\kondur\\] ing crita ndhuwur nduwé-ni teges",
         "pilihan": [
           "menyang",
           "mulih",
@@ -211,7 +211,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung dwija ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\\dwija\\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "siswa",
           "guru",
@@ -222,7 +222,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung kapungkur ing crita ndhuwur teges-é padha karo",
+        "pertanyaan": "tembung [\\kapungkur\\] ing crita ndhuwur teges-é padha karo",
         "pilihan": [
           "rampung",
           "mungel",
@@ -328,7 +328,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung kempal ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\\kempal\\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "pisah",
           "kumpul",
@@ -339,7 +339,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung bingah ing crita ndhuwur teges-é padha karo",
+        "pertanyaan": "tembung [\\bingah\\] ing crita ndhuwur teges-é padha karo",
         "pilihan": [
           "sedhih",
           "bungah",
@@ -445,7 +445,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung ngresik-i ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\\ngresik-i\\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "nggawé reged",
           "ngilang-i reged-an",
@@ -456,7 +456,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung raket ing crita ndhuwur teges-é padha karo ...",
+        "pertanyaan": "tembung [\\raket\\] ing crita ndhuwur teges-é padha karo ...",
         "pilihan": [
           "adoh",
           "cedhak rukun banget",
@@ -562,7 +562,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung sato kéwan ing crita ndhuwur nduwé-ni teges",
+        "pertanyaan": "tembung [\\sato kéwan\\] ing crita ndhuwur nduwé-ni teges",
         "pilihan": [
           "tandur-an",
           "binatang",
@@ -573,7 +573,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung pasuryan ing crita ndhuwur teges-é padha karo",
+        "pertanyaan": "tembung [\\pasuryan\\] ing crita ndhuwur teges-é padha karo",
         "pilihan": [
           "sikil",
           "rai",
@@ -796,7 +796,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung mbetah-aken ing crita ndhuwur nduwé-ni teges padha karo",
+        "pertanyaan": "tembung [\\mbetah-aken\\] ing crita ndhuwur nduwé-ni teges padha karo",
         "pilihan": [
           "butuh utawa mbutuh-aké",
           "mbuwang",
@@ -807,7 +807,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung ngalem ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\\ngalem\\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "nyenen-i",
           "ngalembana",
