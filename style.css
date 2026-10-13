@@ -129,9 +129,55 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+.story-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.story-header h2 {
+  margin: 0;
+}
+
+.btn-latin {
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  padding: 6px 16px;
+  font-size: 0.95rem;
+  font-family: 'Gentium Plus', serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.btn-latin:hover {
+  background-color: #1565c0;
+}
+
+.btn-latin.active {
+  background-color: #0d47a1;
+}
+
 .story-text {
   white-space: pre-wrap;
   text-align: justify;
+}
+
+.story-latin-text {
+  font-family: 'Gentium Plus', serif;
+  font-weight: 400;
+  color: #1e88e5;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  text-align: justify;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px dashed var(--border-color);
 }
 
 .question-block {
