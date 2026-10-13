@@ -143,9 +143,24 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+/* Teks Cerita & Pengaturan Gambar Berada di Kiri */
 .story-text {
   white-space: pre-wrap;
   text-align: justify;
+  display: flow-root; /* Memastikan container memperhitungkan elemen float di dalamnya */
+}
+
+.story-img {
+  float: left;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .story-actions {
@@ -154,6 +169,7 @@ body {
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
+  clear: both;
 }
 
 .btn-latin {
@@ -256,4 +272,13 @@ body {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .story-img {
+    width: 130px;
+    height: 130px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+  }
 }
