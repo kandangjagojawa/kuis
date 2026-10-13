@@ -3,6 +3,16 @@ let kasusData = [];
 let currentKasusIndex = 0;
 let userAnswers = {};
 
+function formatLatinText(text) {
+  if (!text) return '';
+  // 1. Hilangkan tanda hubung (-) yang ada di tengah kata
+  const cleanText = text.replace(/-/g, '');
+  // 2. Kapitalkan awal kalimat (awal teks, setelah titik/tanda tanya/seru, atau setelah baris baru)
+  return cleanText.replace(/(^\s*|[.!?]\s+|\n+\s*)([a-zà-ÿ])/g, (match, prefix, char) => {
+    return prefix + char.toUpperCase();
+  });
+}
+
 function convertToAksara(text) {
   if (!text) return '';
   const lowerText = text.toLowerCase();
@@ -121,6 +131,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  const latinBtn = document.getElementById('btn-toggle-latin');
+  if (latinBtn) {
+    latinBtn.addEventListener('click', () => {
+      const latinContent = document.getElementById('story-latin-content');
+      if (latinContent) {
+        const isHidden = latinContent.style.display === 'none' || !latinContent.style.display;
+        latinContent.style.display = isHidden ? 'block' : 'none';
+        latinBtn.classList.toggle('active', isHidden);
+      }
+    });
+  }
+
   await loadTransliterators();
   await fetchKasusData();
 });
@@ -166,6 +188,11 @@ function renderAll() {
 
   document.getElementById('story-title').textContent = convertToAksara(activeKasus.judul);
   document.getElementById('story-content').textContent = convertToAksara(activeKasus.cerita);
+
+  const latinContent = document.getElementById('story-latin-content');
+  if (latinContent) {
+    latinContent.textContent = formatLatinText(activeKasus.cerita);
+  }
 
   renderSoal(activeKasus.soal);
 
