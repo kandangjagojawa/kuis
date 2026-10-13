@@ -152,8 +152,8 @@ body {
 
 .story-img {
   float: left;
-  width: 180px;
-  height: 180px;
+  width: 280px;
+  height: 280px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   margin-right: 20px;
@@ -276,8 +276,8 @@ body {
 
 @media (max-width: 600px) {
   .story-img {
-    width: 130px;
-    height: 130px;
+    width: 160px;
+    height: 160px;
     margin-right: 12px;
     margin-bottom: 8px;
   }
