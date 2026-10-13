@@ -470,11 +470,11 @@
   {
     "id": 5,
     "judul": "crita 5",
-    "cerita": "nalika preiyan sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu pelesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisiki piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangani-pun setya supados boten lepas malih.",
+    "cerita": "nalika préiyan sekolah, bapak lan ibu ngajak tini, setya, sarta prasaja tindak dhumateng kebon sato kéwan saperlu pelesir-an. wonten ing ngriku, swasana katingal ramé lan ngremen-aken amargi kathah para wisatawan ingkang sami mriksa-ni manéka warni sato kéwan. tini ingkang dados bakyu paling sepuh kanthi sabar mbiyantu ibu njaga adhik-ipun ingkang paling alit, inggih punika prasaja, supados boten lepas saking pangawas-an.\n\nananging, setya ingkang remen sanget mriksa-ni gajah lan macan malah lumayu ndhisiki piyambak-an kanthi gancang-an. bapak ngantos bingung pados-pados amargi setya ical saking rombong-an, saéngga bapak kedah ngubeng-i kandhang kasebut kanthi gopoh. pungkasan-ipun, setya kapanggih saweg ngadeg gumun ing ngajeng kandhang kéwan kanthi pasuryan ingkang bingah, saéngga bapak lajeng nggandheng tangani-pun setya supados boten lepas malih.",
     "soal": [
       {
         "id": 1,
-        "pertanyaan": "ing ngendi kulawarga tindak nalika preiyan sekolah?",
+        "pertanyaan": "ing ngendi kulawarga tindak nalika préiyan sekolah?",
         "pilihan": [
           "menyang pasar",
           "menyang kebon sato kéwan",
@@ -485,7 +485,7 @@
       },
       {
         "id": 2,
-        "pertanyaan": "sapa sing mbantu ibu ngancani lan njaga prasaja?",
+        "pertanyaan": "sapa sing mbantu ibu nganca-ni lan njaga prasaja?",
         "pilihan": [
           "setya",
           "tini",
