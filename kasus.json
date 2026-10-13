@@ -591,7 +591,7 @@
     "soal": [
       {
         "id": 1,
-        "pertanyaan": "pira cacahé kanca cerak sing dicrita-kaké ing ndhuwur?",
+        "pertanyaan": "pira cacah-é kanca cerak sing dicrita-kaké ing ndhuwur?",
         "pilihan": [
           "telu",
           "papat",
@@ -602,7 +602,7 @@
       },
       {
         "id": 2,
-        "pertanyaan": "kepiyé carané bocah lima iku bidhal menyang sekolah ing wayah énjang?",
+        "pertanyaan": "kepiyé cara-né bocah lima iku budhal menyang sekolah ing wayah énjang?",
         "pilihan": [
           "numpak pit",
           "mlaku sesareng-an",
@@ -679,7 +679,7 @@
       },
       {
         "id": 9,
-        "pertanyaan": "tembung angél ing crita ndhuwur nduwé-ni teges padha karo",
+        "pertanyaan": "tembung [\angél\] ing crita ndhuwur nduwé-ni teges padha karo",
         "pilihan": [
           "gampang",
           "susah",
@@ -690,7 +690,7 @@
       },
       {
         "id": 10,
-        "pertanyaan": "tembung cerak ing crita ndhuwur nduwé-ni teges yaiku",
+        "pertanyaan": "tembung [\cerak\] ing crita ndhuwur nduwé-ni teges yaiku",
         "pilihan": [
           "adoh",
           "cedhak utawa raket",
