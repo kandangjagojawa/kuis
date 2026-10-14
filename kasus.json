@@ -1060,5 +1060,123 @@
         "kunci": 1
       }
     ]
+  },
+  {
+    "id": 10,
+    "judul": "crita 10",
+    "gambar": "crita10.jpg",
+    "cerita": "nalika wanci préi sekolah, tini, setya, sarta prasaja ndhérék tiyang sepuh-ipun sowan dhumateng dalem-ipun simbah ingkang mapan wonten ing dhusun asri. hawaning papan kasebut krasa asrep lan seger, sarta toya ing lépén katon wening sanget saéngga nengsem-aken manah. tini kaliyan setya lajeng ngajak prasaja mlampah mlampah nyaket-i lépén saperlu mriksa-ni kaéndah-an alam.\n\nwonten ing pinggir lépén, bocah tiga punika kepanggih kaliyan kanca anyar ingkang nami amrih lan laras. para bocah punika lajeng gegojég-an toya sesareng-an kanthi bingah. setya kaliyan amrih katon lincah nglangi, déné tini lan laras tlatén njaga prasaja ingkang saweg ngumpul-aken séla alit. kawonten-an ing lépén kasebut sangsaya ramé lan dados pengalam-an ingkang ngremen-aken sanget kanggé kulawarga punika.",
+    "soal": [
+      {
+        "id": 1,
+        "pertanyaan": "sapa waé bocah sing dikanca-ni wong tuwa-né sowan menyang dalem-é simbah?",
+        "pilihan": [
+          "tini, setya, lan prasaja",
+          "amrih, laras, lan gembil",
+          "suryani, kartika, lan krisna",
+          "naréndra, amrih, lan setya"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 2,
+        "pertanyaan": "kepiyé kahan-an hawa lan banyu ing dhusun papan panggon-ané simbah?",
+        "pilihan": [
+          "panas lan banyu-né reged",
+          "kebeg ing kukus lan banyu-né gatel",
+          "peteng lan banyu-né mambu",
+          "hawa-né asrep lan banyu-né wening banget"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 3,
+        "pertanyaan": "ing ngendi tini, setya, lan prasaja padha mlaku mlaku nalika tekan dhusun?",
+        "pilihan": [
+          "ing njero pasar",
+          "ing pinggir lépén",
+          "ing ndhuwur wit wit-an",
+          "ing njero lapang-an bal-bal-an"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 4,
+        "pertanyaan": "sapa kenal-an anyar sing ketemu karo para bocah ing pinggir lépén?",
+        "pilihan": [
+          "gembil lan naréndra",
+          "suryani lan kartika",
+          "krisna lan prasaja",
+          "amrih lan laras"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 5,
+        "pertanyaan": "apa sing ditindak-aké setya lan amrih nalika ana ing lépén?",
+        "pilihan": [
+          "mlayu mlayu ing ndhuwur kreteg",
+          "turu ing pinggir suket",
+          "nglangi kanthi lincah ing njero banyu",
+          "mbuwang sampah ing banyu"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 6,
+        "pertanyaan": "sapa sing njaga lan nganca-ni prasaja sing lagi ngumpul-aké séla alit?",
+        "pilihan": [
+          "tini lan laras",
+          "amrih lan setya",
+          "bapak lan ibu",
+          "simbah lan warga"
+        ],
+        "kunci": 0
+      },
+      {
+        "id": 7,
+        "pertanyaan": "apa sing nggawé swasana ing lépén kasebut saya ramé?",
+        "pilihan": [
+          "swara kendharaan sing banter",
+          "swara banyu udan deres",
+          "bocah bocah sing padha gegojeg-an toya lan nglangi",
+          "pasar sing buka ing pinggir kali"
+        ],
+        "kunci": 2
+      },
+      {
+        "id": 8,
+        "pertanyaan": "kapan kulawarga kasebut sowan menyang dalem-é simbah?",
+        "pilihan": [
+          "nalika dina senin ésuk",
+          "nalika wanci préi sekolah",
+          "nalika wanci tengah wengi",
+          "nalika dina jumat soré"
+        ],
+        "kunci": 1
+      },
+      {
+        "id": 9,
+        "pertanyaan": "tembung [\\wening\\] ing crita ndhuwur nduwé-ni teges padha karo",
+        "pilihan": [
+          "reged utawa keruh",
+          "panas utawa abot",
+          "adoh utawa dhuwur",
+          "bening utawa resik banget"
+        ],
+        "kunci": 3
+      },
+      {
+        "id": 10,
+        "pertanyaan": "tembung [\\séla\\] ing crita ndhuwur nduwé-ni teges yaiku",
+        "pilihan": [
+          "kayu utawa wit",
+          "watu",
+          "suket utawa tandur-an",
+          "wedhi pasir"
+        ],
+        "kunci": 1
+      }
+    ]
   }
 ]
