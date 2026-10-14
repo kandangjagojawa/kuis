@@ -499,6 +499,11 @@ function prosesTransliterasi() {
 function transliterasiKalimat(teks) {
     let teksDiolah = teks.replace(/e'/g, 'é').replace(/E'/g, 'É');
 
+    // Pre-processing Solusi A: Resolusi Sintaks Pendekatan B [C1*C2] -> C2 & Hapus Simbol Kontrol A, B, C
+    teksDiolah = teksDiolah
+        .replace(/\[[a-zA-ZéèêÉÈÊ]+\*([a-zA-ZéèêÉÈÊ]+)\]/gi, '$1')
+        .replace(/[\~!\#\^]/g, '');
+
     // Mapping Simbol & Pada Unicode Aksara Jawa
     teksDiolah = teksDiolah
         .replace(/\|\|/g, '\uA9CB')
@@ -561,6 +566,11 @@ function transliterasiKata(rawLatin) {
 
 function transliterasiSingleKata(rawLatin) {
     if (!rawLatin) return "";
+
+    // Pre-processing Solusi A: Resolusi Sintaks Pendekatan B [C1*C2] -> C2 & Hapus Simbol Kontrol A, B, C
+    rawLatin = rawLatin
+        .replace(/\[[a-zA-ZéèêÉÈÊ]+\*([a-zA-ZéèêÉÈÊ]+)\]/gi, '$1')
+        .replace(/[\~!\#\^]/g, '');
 
     let isKataNingrat = rawLatin.toLowerCase().includes('ningrat');
 
@@ -754,6 +764,11 @@ function transliterasiSingleKata(rawLatin) {
 
         if (latin[i] === '-') {
             i++; continue;
+        }
+
+        if (/[\~!\#\^\[\]\*]/.test(latin[i])) {
+            i++;
+            continue;
         }
         
         if (!/[a-zA-ZéèêÉÈÊ]/.test(latin[i])) {
