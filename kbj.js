@@ -518,6 +518,17 @@ function transliterasiSingleKata(rawLatin) {
         });
     }
 
+    // PENANGANAN TEMBUNG DWILINGGA BERAWALAN VOKAL
+    latinProcessed = latinProcessed.replace(/([a-zA-ZéèêÉÈÊ]+)-([a-zA-ZéèêÉÈÊ]+)/gi, function(match, root, suffix) {
+        if (root.toLowerCase() === suffix.toLowerCase()) {
+            if (/^[aiueoéèê]/i.test(root)) {
+                return root + 'h' + suffix;
+            }
+            return root + suffix;
+        }
+        return match;
+    });
+
     // PERBAIKAN HIATUS (é/è dikelompokkan dengan vokal h)
     latinProcessed = latinProcessed.replace(/([aAEÊaeêéèÉÈ])-([aiueoéèêAIUEOÉÈÊ])/g, '$1h$2');
     latinProcessed = latinProcessed.replace(/([iI])-([aiueoéèêAIUEOÉÈÊ])/g, '$1y$2');
@@ -525,7 +536,12 @@ function transliterasiSingleKata(rawLatin) {
 
     while (/([a-zA-ZéèêÉÈÊ]+)-([a-zA-ZéèêÉÈÊ]+)/.test(latinProcessed)) {
         latinProcessed = latinProcessed.replace(/([a-zA-ZéèêÉÈÊ]+)-([a-zA-ZéèêÉÈÊ]+)/g, function(match, root, suffix) {
-            if (root.toLowerCase() === suffix.toLowerCase()) return root + suffix;
+            if (root.toLowerCase() === suffix.toLowerCase()) {
+                if (/^[aiueoéèê]/i.test(root)) {
+                    return root + 'h' + suffix;
+                }
+                return root + suffix;
+            }
 
             let suffixLower = suffix.toLowerCase();
             let isPepetSuffix = (suffixLower === 'aken' || suffixLower === 'kaken' || suffixLower === 'en' || suffixLower === 'nen');
