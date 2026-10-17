@@ -12,7 +12,7 @@ const KAMUS_AKSARA = {
     'm':'ꦩ', 'g':'ꦒ', 'b':'ꦧ', 'th':'ꦛ', 'ng':'ꦔ', 'nx':'ꦔ',
     'f':'ꦥ꦳', 'v':'ꦮ꦳', 'z':'ꦗ꦳',
     'kh':'ꦏ꦳', 'dz':'ꦢ꦳', 'gh':'ꦒ꦳',
-    'sy':'ꦯ', 'sh':'ꦰ',
+    'sy':'ꦯ',
     'kx':'ꦏ', 'rx':'ꦫ', 'hx':'ꦲ', 'ngx':'ꦔ',
     'q': 'ꦐ', 'hh': 'ꦲ꦳', 'xng': 'ꦔ꦳', 'ts': 'ꦱ꦳', 'shh': 'ꦰ꦳',
     'xsy': 'ꦯ꦳', 'dl': 'ꦭ꦳', 'tth': 'ꦡ꦳', 'zh': 'ꦣ꦳', 'x': 'ꦑ꦳'
@@ -20,7 +20,7 @@ const KAMUS_AKSARA = {
 
 const AKSARA_MURDA = {
     'n':'ꦟ', 'k':'ꦑ', 't':'ꦡ', 's':'ꦯ', 'p':'ꦦ',
-    'g':'ꦓ', 'b':'ꦨ', 'c':'ꦖ', 'ny':'ꦘ', 'j':'ꦙ', 'dh':'ꦝ',
+    'g':'ꦓ', 'b':'ꦨ', 'c':'ꦖ', 'ny':'ꦘ', 'j':'ꦙ',
     'r':'ꦬ'
 };
 
@@ -578,7 +578,7 @@ function transliterasiSingleKata(rawLatin) {
         let token = wordOnly
             .replace(/ng/g, '1').replace(/Ng/g, '5').replace(/NG/g, '!')
             .replace(/ny/g, '2').replace(/Ny/g, '6').replace(/NY/g, '@')
-            .replace(/dh/g, '3').replace(/Dh/g, '7').replace(/DH/g, '#')
+            .replace(/dh/g, '3').replace(/Dh/g, '7').replace(/#/g, 'DH')
             .replace(/th/g, '4').replace(/Th/g, '8').replace(/\$/g, 'TH');
 
         wordOnly = token
@@ -652,9 +652,9 @@ function transliterasiSingleKata(rawLatin) {
             c = 'ny'; jump = 2; isMurda = true;
         } else if (c1_raw === 'J' && AKSARA_MURDA['j']) {
             c = 'j'; jump = 1; isMurda = true;
-        } else if (['ngx'].includes(c3)) {
+        } else if (['ngx', 'xng', 'shh', 'xsy', 'tth'].includes(c3)) {
             c = c3; jump = 3;
-        } else if (['ng','ny','dh','th','nx','kh','dz','gh','kx','rx','hx','sy','sh'].includes(c2)) {
+        } else if (['ng','ny','dh','th','nx','kh','dz','gh','kx','rx','hx','sy','hh','ts','dl','zh'].includes(c2)) {
             c = c2; jump = 2;
         } else if (KAMUS_AKSARA[c1]) {
             c = c1; jump = 1;
@@ -731,7 +731,7 @@ function transliterasiSingleKata(rawLatin) {
             else if (c === 'r' && !isFirstAksara && canTakeSandhangan) res += 'ꦂ'; 
             else if (c === 'h' && !isFirstAksara && canTakeSandhangan) res += 'ꦃ'; 
             else if (c !== "") {
-                let base = (c === 'dh' && res.endsWith('꧀')) ? AKSARA_MURDA['dh'] : (isMurda ? AKSARA_MURDA[c] : KAMUS_AKSARA[c]);
+                let base = (c === 'dh' && res.endsWith('꧀')) ? 'ꦝ' : (isMurda ? AKSARA_MURDA[c] : KAMUS_AKSARA[c]);
                 res += base + '꧀'; 
             }
             
@@ -748,7 +748,7 @@ function transliterasiSingleKata(rawLatin) {
         } else if (c === 'r' && (v === 'e' || v === 'ê') && medial === "") {
             res += 'ꦉ'; 
         } else {
-            let base = (c === 'dh' && res.endsWith('꧀')) ? AKSARA_MURDA['dh'] : (isSwara ? SWARA_MAP[c] : (isMurda ? AKSARA_MURDA[c] : KAMUS_AKSARA[c]));
+            let base = (c === 'dh' && res.endsWith('꧀')) ? 'ꦝ' : (isSwara ? SWARA_MAP[c] : (isMurda ? AKSARA_MURDA[c] : KAMUS_AKSARA[c]));
             res += base;
 
             if (medial === 'y') res += 'ꦾ';
